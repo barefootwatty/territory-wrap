@@ -1,0 +1,56 @@
+name: Render Hannah audio & publish
+
+# Runs on GitHub's servers (open internet + the ElevenLabs secret) after the
+# 5:30am builder pushes the day's script. Renders the MP3 in Hannah's voice,
+# fixes the feed/site duration + size, and commits the result. Vercel then
+# redeploys automatically. Commits made with GITHUB_TOKEN do NOT retrigger this
+# workflow, so there's no loop.
+
+on:
+  push:
+    paths:
+      - "episodes/*.script.txt"
+  workflow_dispatch:
+    inputs:
+      render_date:
+        description: "Force a specific date (YYYY-MM-DD). Leave blank for newest."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hannah-publish
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install audio tools
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg espeak-ng
+
+      - name: Render Hannah + rebuild feed/site
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          RENDER_DATE: ${{ github.event.inputs.render_date }}
+        run: python3 engine/publish.py
+
+      - name: Commit audio + feed
+        run: |
+          git config user.name  "territory-wrap-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f site/episodes/*.mp3
+          git add site/feed.xml site/data.json site/index.html episodes/*.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Hannah audio + feed [skip ci]"
+            git push
+          fi

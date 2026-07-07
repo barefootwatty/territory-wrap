@@ -1,0 +1,60 @@
+{
+  "podcast_title": "The Territory Wrap",
+  "base_url": "https://REPLACE_WITH_HOST",
+  "updated": "2026-07-07T13:20:23",
+  "episodes": [
+    {
+      "date": "2026-07-07",
+      "edition": "Tuesday 7 July 2026",
+      "title": "The Territory Wrap \u2014 Tuesday 7 July 2026",
+      "duration": 171.2,
+      "filesize": 2054523,
+      "mp3": "episodes/2026-07-07.mp3",
+      "voice": "espeak",
+      "intro": "G'day Watty, good morning. It's Tuesday the seventh of July, another cracker of a dry-season day in the Top End. Here's your Territory Wrap \u2014 the good news from the bush, the boat and the bar-mouth. It's a leaner batch than usual today, the fresh news was a bit quiet, but it's all worth knowing.",
+      "stories": [
+        {
+          "id": 1,
+          "category": "International & Biz",
+          "headline": "Christmas Island still delivering the goods on the flats",
+          "summary": "A fresh trip report from Kiritimati \u2014 the Pacific flats fishery Angling Adventures sends anglers to \u2014 describes endless bonefish, hard-won giant trevally and that famously relentless wind. The writer's verdict: it's hunting, not harvesting, and it rewards anglers who back their own skills. Lodges and hosted trips remained busy through 2026.",
+          "spoken": "First up, one for the travel side of things. A fresh write-up from Christmas Island \u2014 Kiritimati, out in the Pacific \u2014 paints the usual picture: bonefish everywhere, giant trevally that make you earn every one, and that relentless wind. The angler's take was a good one: it's hunting, not harvesting. You back your own skills and the island rewards you. Still a cracking destination, and the lodges have stayed busy right through the year.",
+          "source": "Big Y Fly Co",
+          "url": "https://bigyflyco.com/blogs/big-y-fly-fishing-blog/christmas-island-2026-why-this-legendary-destination-still-matters",
+          "image": "https://bigyflyco.com/cdn/shop/articles/20260205_114236_1_d62b796b-112c-4bfc-9ddb-ec0ca0747a64_1200x900.jpg?v=1780597156"
+        },
+        {
+          "id": 2,
+          "category": "Aus Rec Fishing",
+          "headline": "Aussie-made lures and flies star at this month's Expo",
+          "summary": "The Australian Lure, Fly & Outdoors Expo \u2014 a celebration of Aussie-made lures, lure-making and fly-tying \u2014 runs 11 to 12 July at Fernvale Showgrounds in Queensland. Expect timber, plastic and metal lures, wet and dry flies, vintage collectables to trade, plus rods, reels and gear. Entry is $15 for adults and free for under-16s with a paying adult.",
+          "spoken": "A good one for the lure and fly tragics now. The Australian Lure, Fly and Outdoors Expo is on this coming weekend, the eleventh and twelfth of July, at the Fernvale Showgrounds in Queensland. It's a celebration of Aussie-made gear \u2014 timber, plastic and metal lures, wet flies, dry flies, even old vintage collectables to trade. Fifteen bucks in for adults, free for the kids under sixteen. Well worth a look if you're that way inclined.",
+          "source": "Fishing World",
+          "url": "https://fishingworld.com.au/news/2026-lure-fly-outdoors-expo/",
+          "image": "https://fishingworld.com.au/wp-content/uploads/2026/06/FB_header-Beenleigh-1.jpg"
+        },
+        {
+          "id": 3,
+          "category": "Aus Rec Fishing",
+          "headline": "Victoria's next 10-million-fish stocking season kicks off",
+          "summary": "Victoria's record fish-stocking run rolls into a new season from this July, with the Victorian Fisheries Authority's draft plan to release more than 10 million fish across around 247 waters through to June 2027 \u2014 from Murray cod and trout to conservation species like Macquarie perch. More fish in more waters for anglers right across the state.",
+          "spoken": "Down south, the fish stocking just keeps on coming. Victoria is rolling into a new season from this month, with the Fisheries Authority planning to put more than ten million fish into around two hundred and forty-seven waters between now and June next year. Everything from Murray cod and trout to threatened species like the Macquarie perch. More fish, more waters, more spots to wet a line.",
+          "source": "Victorian Fisheries Authority",
+          "url": "https://vfa.vic.gov.au/recreational-fishing/fisheries-management/have-your-say-on-the-10-million-fish-stocking-plan-for-2026-2027",
+          "image": ""
+        },
+        {
+          "id": 4,
+          "category": "Aus Rec Fishing",
+          "headline": "Queensland opens up more dams for stocked fishing",
+          "summary": "Queensland's Stocked Impoundment Permit Scheme has hit its 25th year and expanded to 66 dams and weirs, with new waters including Paradise Dam (bass and barramundi), Mount Morgan No. 7 Dam and Enoggera Dam now stocked. More stocked impoundments means more places to chase a fish closer to home.",
+          "spoken": "And staying with more fish in the water \u2014 Queensland's stocked-dam scheme has ticked over twenty-five years and grown to sixty-six dams and weirs. New waters coming online include Paradise Dam, now stocked with bass and barramundi, along with Mount Morgan and Enoggera. More stocked impoundments means more places to chase a fish closer to home. A good problem to have.",
+          "source": "Fishing Charters Australia",
+          "url": "https://fishingchartersaustralia.com.au/the-2026-stocking-roadmap-tracking-australias-10-million-new-fish/",
+          "image": "https://fishingchartersaustralia.com.au/wp-content/uploads/2025/09/esturary-fishing-in-the-northern-territory-scaled.jpg"
+        }
+      ],
+      "built_at": "2026-07-07T12:39:47"
+    }
+  ]
+}

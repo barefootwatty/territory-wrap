@@ -1,0 +1,22 @@
+# The Territory Wrap — what NEVER goes to the public GitHub repo.
+
+# PRIVATE: the full curated editions (include Director & Brand Watch / family
+# names). Only the public site + scripts are published; this stays on GW's disk.
+data/
+
+# Bulky offline voice data — the cloud render uses ElevenLabs + apt espeak-ng.
+engine/tts/
+engine/__pycache__/
+__pycache__/
+*.pyc
+
+# Audio the sandbox makes locally. The Hannah MP3 is committed by the Action
+# itself with `git add -f`; the sandbox espeak version is never pushed.
+*.mp3
+*.wav
+
+# Deploy secret (GitHub push token for the daily builder) — never committed.
+engine/.deploy_token
+
+# Stray test/preview renders — not part of the public site.
+site/test-*.html

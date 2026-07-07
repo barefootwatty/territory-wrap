@@ -1,0 +1,13 @@
+{
+  "name": "The Territory Wrap",
+  "short_name": "Territory Wrap",
+  "description": "Good news from the bush, the boat and the bar-mouth.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f6efe6",
+  "theme_color": "#c75b12",
+  "icons": [
+    { "src": "cover.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any" },
+    { "src": "cover.jpg", "sizes": "1500x1500", "type": "image/jpeg", "purpose": "maskable" }
+  ]
+}
