@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>The Territory Wrap</title>
-    <link>https://REPLACE_WITH_HOST</link>
+    <link>https://territory-wrap.vercel.app</link>
     <language>en-au</language>
     <description>A light, good-news morning bulletin for Watty and the family in Bees Creek, NT. Recreational fishing and outdoors news from the Northern Territory, Australia and further afield, with the doom-and-gloom left out. Built for the school run.</description>
     <itunes:author>Watty</itunes:author>
@@ -10,7 +10,7 @@
     <itunes:summary>A light, good-news morning bulletin for Watty and the family in Bees Creek, NT. Recreational fishing and outdoors news from the Northern Territory, Australia and further afield, with the doom-and-gloom left out. Built for the school run.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://REPLACE_WITH_HOST/cover.jpg"/>
+    <itunes:image href="https://territory-wrap.vercel.app/cover.jpg"/>
     <itunes:owner>
       <itunes:name>Glenn Watt</itunes:name>
       <itunes:email>glenn@barefootfishingsafaris.com.au</itunes:email>
@@ -19,16 +19,16 @@
       <itunes:category text="Hobbies"/>
     </itunes:category>
     <image>
-      <url>https://REPLACE_WITH_HOST/cover.jpg</url>
+      <url>https://territory-wrap.vercel.app/cover.jpg</url>
       <title>The Territory Wrap</title>
-      <link>https://REPLACE_WITH_HOST</link>
+      <link>https://territory-wrap.vercel.app</link>
     </image>
-    <lastBuildDate>Tue, 07 Jul 2026 05:21:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 05:36:43 +0000</lastBuildDate>
     <item>
       <title>The Territory Wrap — Tuesday 7 July 2026</title>
       <description>In this edition: Christmas Island still delivering the goods on the flats (Big Y Fly Co); Aussie-made lures and flies star at this month&#x27;s Expo (Fishing World); Victoria&#x27;s next 10-million-fish stocking season kicks off (Victorian Fisheries Authority); Queensland opens up more dams for stocked fishing (Fishing Charters Australia)</description>
       <pubDate>Tue, 07 Jul 2026 06:30:00 +0930</pubDate>
-      <enclosure url="https://REPLACE_WITH_HOST/episodes/2026-07-07.mp3" length="2736840" type="audio/mpeg"/>
+      <enclosure url="https://territory-wrap.vercel.app/episodes/2026-07-07.mp3" length="2054523" type="audio/mpeg"/>
       <guid isPermaLink="false">territory-wrap-2026-07-07</guid>
       <itunes:duration>171</itunes:duration>
       <itunes:explicit>false</itunes:explicit>

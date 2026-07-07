@@ -1,16 +1,16 @@
 {
   "podcast_title": "The Territory Wrap",
-  "base_url": "https://REPLACE_WITH_HOST",
-  "updated": "2026-07-07T05:21:19",
+  "base_url": "https://territory-wrap.vercel.app",
+  "updated": "2026-07-07T15:06:43",
   "episodes": [
     {
       "date": "2026-07-07",
       "edition": "Tuesday 7 July 2026",
       "title": "The Territory Wrap \u2014 Tuesday 7 July 2026",
-      "duration": 171.0,
-      "filesize": 2736840,
+      "duration": 171.2,
+      "filesize": 2054523,
       "mp3": "episodes/2026-07-07.mp3",
-      "voice": "elevenlabs",
+      "voice": "espeak",
       "intro": "G'day Watty, good morning. It's Tuesday the seventh of July, another cracker of a dry-season day in the Top End. Here's your Territory Wrap \u2014 the good news from the bush, the boat and the bar-mouth. It's a leaner batch than usual today, the fresh news was a bit quiet, but it's all worth knowing.",
       "stories": [
         {
@@ -54,7 +54,7 @@
           "image": "https://fishingchartersaustralia.com.au/wp-content/uploads/2025/09/esturary-fishing-in-the-northern-territory-scaled.jpg"
         }
       ],
-      "built_at": "2026-07-07T05:21:19"
+      "built_at": "2026-07-07T12:39:47"
     }
   ]
 }

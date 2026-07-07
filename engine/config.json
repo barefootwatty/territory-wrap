@@ -8,7 +8,7 @@
   "podcast_language": "en-au",
   "podcast_category": "Leisure",
   "podcast_subcategory": "Hobbies",
-  "base_url": "https://REPLACE_WITH_HOST",
+  "base_url": "https://territory-wrap.vercel.app",
   "retention_days": 30,
   "public_exclude_categories": ["Director & Brand Watch"],
   "git_remote": "https://github.com/barefootwatty/territory-wrap.git",
