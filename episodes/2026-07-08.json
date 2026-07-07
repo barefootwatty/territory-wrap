@@ -2,10 +2,10 @@
   "date": "2026-07-08",
   "edition": "Wednesday 8 July 2026",
   "title": "Snapper smiles and a saltwater double haul",
-  "duration": 136.5,
-  "filesize": 1637922,
+  "duration": 118.1,
+  "filesize": 1890473,
   "mp3": "episodes/2026-07-08.mp3",
-  "voice": "espeak",
+  "voice": "elevenlabs",
   "intro": "G'day Watty, and good morning \u2014 it's Wednesday the eighth of July, another ripper of a dry-season day in the Top End. Bit of a short wrap today: the fresh news was thin on the ground, so we're running lean rather than padding it out. Two good ones though \u2014 a cracker of a comp down south, and a fly tip worth a look on the drive home. Here's your Territory Wrap.",
   "stories": [
     {
@@ -16,7 +16,7 @@
       "spoken": "First up, a good-news story from down south. The Trophy Hunter Snapper Bash ran out of Coffs Harbour on the New South Wales mid-north coast, and it pulled a huge field \u2014 a hundred and fifty-four boats, all chasing a prize pool worth more than two hundred thousand dollars. It's run by a couple of blokes, Sondal Bensan and Mike Bonnici, who took over from the old Dave Irvine Snapper Classic and rebuilt it as a team comp. By all accounts it's less about the cash and more about the good yarns and the camaraderie \u2014 phone calls between drifts, a beer at the pub after stop-fishing, families making a week of it. The winners this year, Tai Donelan and his crew, blew the field away with a bag of ten cracking snapper. Sounds like a bloody good week on the water.",
       "source": "Fishing World",
       "url": "https://fishingworld.com.au/news/2026-trophy-hunter-snapper-bash/",
-      "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/IMG_4044-scaled.jpg"
+      "image": "img/2026-07-08/1.jpg"
     },
     {
       "id": 2,
@@ -26,9 +26,9 @@
       "spoken": "And here's one for the fly crew. The blokes at Gink and Gasoline have put up a short video breaking down the double haul \u2014 that's the cast that gives you the line speed and the distance, and there's nowhere it matters more than in the salt. A lot of anglers find the double haul a bit of a mystery, so if that's you, it's well worth a watch on the drive home. Get that cast dialled in and you'll be putting the fly where the barra, the queenies and the trevally actually are.",
       "source": "Gink & Gasoline",
       "url": "https://www.ginkandgasoline.com/saltwater-fly-fishing/the-double-haul/",
-      "image": "https://www.ginkandgasoline.com/wp-content/uploads/2011/11/edit-3549-1024x543.jpg",
+      "image": "img/2026-07-08/2.jpg",
       "link_label": "\u25b6 Watch the video"
     }
   ],
-  "built_at": "2026-07-08T05:44:29"
+  "built_at": "2026-07-07T20:15:41"
 }
