@@ -1,16 +1,16 @@
 {
   "podcast_title": "The Territory Wrap",
   "base_url": "https://territory-wrap.vercel.app",
-  "updated": "2026-07-07T15:50:53",
+  "updated": "2026-07-07T06:38:53",
   "episodes": [
     {
       "date": "2026-07-07",
       "edition": "Tuesday 7 July 2026",
       "title": "The Territory Wrap \u2014 Tuesday 7 July 2026",
-      "duration": 171.0,
-      "filesize": 2052642,
+      "duration": 151.6,
+      "filesize": 2425461,
       "mp3": "episodes/2026-07-07.mp3",
-      "voice": "espeak",
+      "voice": "elevenlabs",
       "intro": "G'day Watty, good morning. It's Tuesday the seventh of July, another cracker of a dry-season day in the Top End. Here's your Territory Wrap \u2014 the good news from the bush, the boat and the bar-mouth. It's a leaner batch than usual today, the fresh news was a bit quiet, but it's all worth knowing.",
       "stories": [
         {
@@ -21,7 +21,7 @@
           "spoken": "First up, one for the travel side of things. A fresh write-up from Christmas Island \u2014 Kiritimati, out in the Pacific \u2014 paints the usual picture: bonefish everywhere, giant trevally that make you earn every one, and that relentless wind. The angler's take was a good one: it's hunting, not harvesting. You back your own skills and the island rewards you. Still a cracking destination, and the lodges have stayed busy right through the year.",
           "source": "Big Y Fly Co",
           "url": "https://bigyflyco.com/blogs/big-y-fly-fishing-blog/christmas-island-2026-why-this-legendary-destination-still-matters",
-          "image": "https://bigyflyco.com/cdn/shop/articles/20260205_114236_1_d62b796b-112c-4bfc-9ddb-ec0ca0747a64_1200x900.jpg?v=1780597156"
+          "image": "img/2026-07-07/1.webp"
         },
         {
           "id": 2,
@@ -54,7 +54,7 @@
           "image": ""
         }
       ],
-      "built_at": "2026-07-07T15:50:41"
+      "built_at": "2026-07-07T06:38:53"
     }
   ]
 }
