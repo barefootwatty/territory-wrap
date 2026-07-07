@@ -1,16 +1,16 @@
 {
   "podcast_title": "The Territory Wrap",
   "base_url": "https://territory-wrap.vercel.app",
-  "updated": "2026-07-07T15:50:53",
+  "updated": "2026-07-07T06:22:49",
   "episodes": [
     {
       "date": "2026-07-07",
       "edition": "Tuesday 7 July 2026",
       "title": "The Territory Wrap \u2014 Tuesday 7 July 2026",
-      "duration": 171.0,
-      "filesize": 2052642,
+      "duration": 152.0,
+      "filesize": 2431730,
       "mp3": "episodes/2026-07-07.mp3",
-      "voice": "espeak",
+      "voice": "elevenlabs",
       "intro": "G'day Watty, good morning. It's Tuesday the seventh of July, another cracker of a dry-season day in the Top End. Here's your Territory Wrap \u2014 the good news from the bush, the boat and the bar-mouth. It's a leaner batch than usual today, the fresh news was a bit quiet, but it's all worth knowing.",
       "stories": [
         {
@@ -54,7 +54,7 @@
           "image": ""
         }
       ],
-      "built_at": "2026-07-07T15:50:41"
+      "built_at": "2026-07-07T06:22:49"
     }
   ]
 }
