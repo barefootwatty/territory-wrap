@@ -10,6 +10,9 @@ on:
   push:
     paths:
       - "episodes/*.script.txt"
+      - "engine/publish.py"
+      - "engine/build_feed.py"
+      - "engine/build_site.py"
   workflow_dispatch:
     inputs:
       render_date:
@@ -47,6 +50,7 @@ jobs:
           git config user.name  "territory-wrap-bot"
           git config user.email "bot@users.noreply.github.com"
           git add -f site/episodes/*.mp3
+          git add -f site/img
           git add site/feed.xml site/data.json site/index.html episodes/*.json
           if git diff --cached --quiet; then
             echo "Nothing to commit."

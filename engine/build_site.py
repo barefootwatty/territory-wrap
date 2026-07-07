@@ -56,6 +56,10 @@ def clean_image(url):
     if not url:
         return ""
     u = url.lower()
+    # Self-hosted images (downloaded by the Action into site/img/) always pass —
+    # they're same-origin and already vetted at curation time.
+    if u.startswith("img/"):
+        return url
     if not u.startswith(("http://", "https://")):
         return ""
     if any(bit in u for bit in _BAD_IMG_BITS):
