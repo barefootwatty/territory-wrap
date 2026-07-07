@@ -55,6 +55,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "Hannah audio + feed [skip ci]"
+            git commit -m "Hannah audio + feed"
             git push
           fi
