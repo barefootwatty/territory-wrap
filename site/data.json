@@ -1,16 +1,16 @@
 {
   "podcast_title": "The Territory Wrap",
   "base_url": "https://territory-wrap.vercel.app",
-  "updated": "2026-07-07T05:47:22",
+  "updated": "2026-07-07T15:50:53",
   "episodes": [
     {
       "date": "2026-07-07",
       "edition": "Tuesday 7 July 2026",
       "title": "The Territory Wrap \u2014 Tuesday 7 July 2026",
-      "duration": 170.0,
-      "filesize": 2719704,
+      "duration": 171.0,
+      "filesize": 2052642,
       "mp3": "episodes/2026-07-07.mp3",
-      "voice": "elevenlabs",
+      "voice": "espeak",
       "intro": "G'day Watty, good morning. It's Tuesday the seventh of July, another cracker of a dry-season day in the Top End. Here's your Territory Wrap \u2014 the good news from the bush, the boat and the bar-mouth. It's a leaner batch than usual today, the fresh news was a bit quiet, but it's all worth knowing.",
       "stories": [
         {
@@ -31,7 +31,7 @@
           "spoken": "A good one for the lure and fly tragics now. The Australian Lure, Fly and Outdoors Expo is on this coming weekend, the eleventh and twelfth of July, at the Fernvale Showgrounds in Queensland. It's a celebration of Aussie-made gear \u2014 timber, plastic and metal lures, wet flies, dry flies, even old vintage collectables to trade. Fifteen bucks in for adults, free for the kids under sixteen. Well worth a look if you're that way inclined.",
           "source": "Fishing World",
           "url": "https://fishingworld.com.au/news/2026-lure-fly-outdoors-expo/",
-          "image": "https://fishingworld.com.au/wp-content/uploads/2026/06/FB_header-Beenleigh-1.jpg"
+          "image": ""
         },
         {
           "id": 3,
@@ -51,10 +51,10 @@
           "spoken": "And staying with more fish in the water \u2014 Queensland's stocked-dam scheme has ticked over twenty-five years and grown to sixty-six dams and weirs. New waters coming online include Paradise Dam, now stocked with bass and barramundi, along with Mount Morgan and Enoggera. More stocked impoundments means more places to chase a fish closer to home. A good problem to have.",
           "source": "Fishing Charters Australia",
           "url": "https://fishingchartersaustralia.com.au/the-2026-stocking-roadmap-tracking-australias-10-million-new-fish/",
-          "image": "https://fishingchartersaustralia.com.au/wp-content/uploads/2025/09/esturary-fishing-in-the-northern-territory-scaled.jpg"
+          "image": ""
         }
       ],
-      "built_at": "2026-07-07T05:47:22"
+      "built_at": "2026-07-07T15:50:41"
     }
   ]
 }

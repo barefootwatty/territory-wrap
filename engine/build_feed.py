@@ -68,11 +68,21 @@ def main():
     items = []
     for m in metas:
         url = f"{base}/{m['mp3']}"
-        desc_lines = [f"{s['headline']} ({s.get('source','')})" for s in m.get("stories", [])]
+        stories = m.get("stories", [])
+        desc_lines = [f"{s['headline']} ({s.get('source','')})" for s in stories]
         desc = "In this edition: " + "; ".join(desc_lines)
+        # Clickable show notes: headline links to the source article.
+        note_items = "".join(
+            f'<li><a href="{esc(s.get("url",""))}">{esc(s["headline"])}</a>'
+            f' — {esc(s.get("source",""))}</li>'
+            for s in stories if s.get("url")
+        )
+        notes_html = (f"<p>In this edition:</p><ul>{note_items}</ul>"
+                      if note_items else esc(desc))
         items.append(f"""    <item>
       <title>{esc(m['title'])}</title>
       <description>{esc(desc)}</description>
+      <content:encoded><![CDATA[{notes_html}]]></content:encoded>
       <pubDate>{rfc2822(m['date'])}</pubDate>
       <enclosure url="{esc(url)}" length="{m.get('filesize',0)}" type="audio/mpeg"/>
       <guid isPermaLink="false">territory-wrap-{m['date']}</guid>

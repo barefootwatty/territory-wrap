@@ -40,20 +40,51 @@ def fmt_dur(s):
     return f"{s//60} min {s%60:02d} sec"
 
 
+# Belt-and-braces image filter. Curation (the daily task) is the first line of
+# defence, but drop anything here that smells like a generic banner/logo/social
+# card rather than an article-specific photo, so a bad URL never reaches a card.
+_BAD_IMG_BITS = (
+    "logo", "sprite", "placeholder", "opengraph-image", "og-image", "og_image",
+    "og-default", "default-", "-default", "banner", "fb_header", "_header",
+    "facebook", "social-card", "share-image", "sharing", "favicon", "avatar",
+    "/icons/", "icon-", "spacer", "blank.", "no-image", "noimage",
+)
+
+
+def clean_image(url):
+    """Return url if it looks like a real article photo, else '' (styled fallback)."""
+    if not url:
+        return ""
+    u = url.lower()
+    if not u.startswith(("http://", "https://")):
+        return ""
+    if any(bit in u for bit in _BAD_IMG_BITS):
+        return ""
+    return url
+
+
 def card(s, date):
     cat = s.get("category", "")
     grad = GRAD.get(cat, "linear-gradient(135deg,#8a5a2b,#4a2f12)")
     cid = f"{date}-{s.get('id','x')}"
-    img = s.get("image", "")
+    url = s.get("url", "")
+    img = clean_image(s.get("image", ""))
     imgtag = (
         f'<img src="{esc(img)}" alt="" loading="lazy" '
         f'onload="this.classList.add(\'on\')" onerror="this.style.display=\'none\'">'
         if img else ""
     )
     sample = '<span class="sample">sample</span>' if s.get("sample") else ""
+    # Headline links straight to the source article.
+    head_html = esc(s["headline"])
+    if url:
+        head_html = f'<a class="headlink" href="{esc(url)}" target="_blank" rel="noopener">{esc(s["headline"])}</a>'
     extra = ""
     if s.get("link_label"):
-        extra = f'<p class="extra"><a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["link_label"])}</a></p>'
+        extra = f'<p class="extra"><a href="{esc(url)}" target="_blank" rel="noopener">{esc(s["link_label"])}</a></p>'
+    readmore = ""
+    if url:
+        readmore = f'<p class="readmore"><a href="{esc(url)}" target="_blank" rel="noopener">Read the full article →</a></p>'
     return f"""      <article class="card" data-id="{esc(cid)}" data-section="{esc(cat)}">
         <div class="hero" style="background:{grad}">
           <span class="chip">{esc(cat)}</span>{sample}
@@ -61,12 +92,13 @@ def card(s, date):
           {imgtag}
         </div>
         <div class="body">
-          <h3>{esc(s['headline'])}</h3>
+          <h3>{head_html}</h3>
           <p>{esc(s['summary'])}</p>
           {extra}
+          {readmore}
           <div class="cardfoot">
             <button class="done" onclick="markDone('{esc(cid)}')">✓ Mark used / archive</button>
-            <span class="src">Source: <a href="{esc(s['url'])}" target="_blank" rel="noopener">{esc(s['source'])}</a></span>
+            <span class="src">Source: <a href="{esc(url)}" target="_blank" rel="noopener">{esc(s['source'])}</a></span>
           </div>
         </div>
       </article>"""
@@ -154,8 +186,13 @@ def render(edition, out_name, is_preview=False):
   .hero .sample{{position:absolute;top:11px;right:11px;z-index:2;background:#2a2320;color:#fff;font-family:'Montserrat';font-weight:600;font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:11px;opacity:.85}}
   .body{{padding:14px 16px 14px}}
   .body h3{{font-family:'Montserrat';font-weight:700;font-size:18px;margin:0 0 7px;line-height:1.3}}
+  .body h3 .headlink{{color:inherit;text-decoration:none}}
+  .body h3 .headlink:hover{{color:var(--accent);text-decoration:underline}}
   .body p{{margin:0 0 9px;font-size:15px;color:#3a322d}}
   .extra a{{font-family:'Montserrat';font-weight:600;font-size:13px;color:var(--accent)}}
+  .readmore{{margin:0 0 10px}}
+  .readmore a{{font-family:'Montserrat';font-weight:700;font-size:13px;color:var(--accent);text-decoration:none}}
+  .readmore a:hover{{text-decoration:underline}}
   .cardfoot{{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:4px}}
   .done{{font-family:'Montserrat';font-weight:600;font-size:12px;cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:9px;padding:7px 11px}}
   .done:hover{{background:var(--chip)}}

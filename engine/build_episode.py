@@ -7,8 +7,33 @@ Composes a spoken script (title read, up-front headline summary, then section by
 section), writes it to episodes/<date>.script.txt, and renders audio via the
 pluggable voice provider (ElevenLabs/Hannah at the hosting layer; espeak fallback).
 """
-import sys, os, json, subprocess, datetime, shutil
+import sys, os, json, re, subprocess, datetime, shutil
 import tts_provider
+
+# Phonetic respellings applied to the SPOKEN script ONLY, so tricky place names
+# read correctly in the audio. The headlines/summaries in the data and on the
+# dashboard stay spelled correctly — this only rewrites what Emma actually says.
+# Extend freely: {correct spelling: how it should sound}.
+PRONUNCE = {
+    "Kiritimati": "Kiriss-mass",
+    "Bensbach": "Bens-bahk",
+    "Nhulunbuy": "Nool-un-boy",
+    "Maningrida": "Manning-greeda",
+    "Dhipirri": "Dip-er-ree",
+    "Arnhem": "Arn-em",
+    "Tiwi": "Tee-wee",
+    "Kakadu": "Kacka-doo",
+    "saratoga": "sarra-toe-ga",
+    "saratogas": "sarra-toe-gas",
+    "barramundi": "barra-mundi",
+}
+
+
+def apply_pronunciation(text):
+    """Respell known tricky words for the ear. Whole-word, case-insensitive."""
+    for word, say in PRONUNCE.items():
+        text = re.sub(rf"\b{re.escape(word)}\b", say, text, flags=re.IGNORECASE)
+    return text
 
 ENGINE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(ENGINE)
@@ -55,7 +80,7 @@ def compose_script(data):
         for s in by_cat[cat]:
             parts.append(s.get("spoken") or s.get("summary", ""))
     parts.append(data.get("outro", "That's your wrap. Have a cracker of a day. Tight lines."))
-    return "\n\n".join(p.strip() for p in parts if p.strip())
+    return apply_pronunciation("\n\n".join(p.strip() for p in parts if p.strip()))
 
 
 def ffprobe_duration(path):

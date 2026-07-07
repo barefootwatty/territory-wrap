@@ -15,8 +15,8 @@
   "_media_note": "FUTURE Supabase: set media_base_url + media_bucket and uncomment the upload block in publish.py to move MP3s off git.",
   "voice": {
     "provider": "elevenlabs",
-    "voice_name": "Hannah",
-    "voice_id": "M7ya1YbaeFaPXljg9BpK",
+    "voice_name": "Emma",
+    "voice_id": "56bWURjYFHyYyVf490Dp",
     "model_id": "eleven_multilingual_v2",
     "api_key_env": "ELEVENLABS_API_KEY",
     "fallback": "espeak",
