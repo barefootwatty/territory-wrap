@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-10",
+  "edition": "Friday 10 July 2026",
+  "title": "A new reef down south and a barra tug-of-war",
+  "duration": 144.5,
+  "filesize": 1733844,
+  "mp3": "episodes/2026-07-10.mp3",
+  "voice": "espeak",
+  "intro": "G'day Watty, and good morning \u2014 it's Friday the tenth of July, another cracker of a dry-season day in the Top End. Fresh news was a bit thin on the ground this morning, so we're running lean rather than padding it out. But there's a good one out of New South Wales worth knowing, and a fly clip to fire you up for the weekend. Here's your Territory Wrap.",
+  "stories": [
+    {
+      "id": 1,
+      "category": "Rec Fishing & the Bodies",
+      "headline": "New artificial reef sunk off Coffs to fire up the fishing",
+      "summary": "A new artificial reef has been installed off Coffs Harbour on the NSW Mid North Coast to boost sustainable recreational fishing and coastal tourism. It's made up of two 50-tonne steel structures, each 15.6 by 15.6 metres and 12 metres high, engineered by naval architects and biologists to hold up in a one-in-100-year storm and placed about 500 metres apart in 28 metres of water, roughly 10km south of Coffs. Designed to draw mackerel, snapper, mulloway and baitfish, it's the latest of 14 offshore reefs now along the NSW coast, funded through the Recreational Fishing Trust and built by SMC Marine.",
+      "spoken": "First up, a good one out of New South Wales. There's a brand-new artificial reef been sunk off Coffs Harbour, built to boost the rec fishing and a bit of coastal tourism along with it. It's a serious bit of kit \u2014 two steel structures, each about fifteen and a half metres square and twelve metres tall, weighing fifty tonnes apiece. They've been dropped around five hundred metres apart in twenty-eight metres of water, about ten kilometres south of Coffs. The whole thing was designed by naval architects and biologists to cop a one-in-a-hundred-year storm and keep sitting there, quietly turning into prime habitat for mackerel, snapper, mulloway and baitfish. It's the fourteenth of these reefs now along the New South Wales coast, paid for out of the Recreational Fishing Trust \u2014 so that's your fishing licence money going straight back into more fish. Good to see.",
+      "source": "Fishing World",
+      "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
+      "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/unnamed-65.png"
+    },
+    {
+      "id": 2,
+      "category": "Fly Fishing",
+      "headline": "Barra on the fly: a proper tug-of-war worth a re-watch",
+      "summary": "Flylords' 'Video of the Week' follows Australian angler Mathew Scholz \u2014 of the Pelagic Pursuit channel \u2014 sight-casting to big barramundi on fly. It's classic tropical stuff: fish tucked hard into heavy structure, big rods, and some genuinely wild footage once the barra decide they've had enough. Not fresh news, but a cracking bit of watching to warm up the casting arm before the weekend.",
+      "spoken": "And to round it out, a bit of fly inspiration for the drive home. Flylords ran a clip following an Aussie bloke, Mathew Scholz \u2014 he's the fella behind the Pelagic Pursuit channel \u2014 sight-casting to big barra on the fly. It's the good stuff: fish jammed up tight in heavy structure, big rods, and once he hooks up it turns into an absolute tug-of-war with one of the angriest fish in the country. It's not hot-off-the-press news, but it's a ripper watch to get the casting arm warmed up before the weekend. Link's on the dashboard if you want a squiz.",
+      "source": "Flylords Mag",
+      "url": "https://flylordsmag.com/video-of-the-week-barramundi-on-the-fly-with-pelagic-pursuit/",
+      "image": "https://flylordsmag.com/wp-content/uploads/2021/02/Image-1.jpeg",
+      "link_label": "\u25b6 Watch the barra-on-fly film"
+    }
+  ],
+  "built_at": "2026-07-10T09:08:14"
+}
