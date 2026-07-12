@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Render the STATIC Territory Wrap dashboard, grouped into sections.
+"""Render the STATIC dashboard, grouped into sections. Branding (title, tagline,
+footer) is pulled from engine/config.json — edit that, not this file, to rebrand.
 
 Usage:
   python3 build_site.py                       -> builds site/index.html from site/data.json (latest edition)
@@ -14,6 +15,7 @@ import os, json, html, sys, datetime
 ENGINE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(ENGINE)
 SITE = os.path.join(ROOT, "site")
+CONFIG = json.load(open(os.path.join(ENGINE, "config.json")))
 
 # Section order + colours. Category strings must match the data exactly.
 SECTIONS = [
@@ -149,11 +151,11 @@ def render(edition, out_name, is_preview=False):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Territory Wrap</title>
+<title>{esc(CONFIG['podcast_title'])}</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#f6efe6">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Territory Wrap">
+<meta name="apple-mobile-web-app-title" content="{esc(CONFIG['podcast_title'])}">
 <link rel="apple-touch-icon" href="cover.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -208,14 +210,14 @@ def render(edition, out_name, is_preview=False):
 <body>
 <div class="wrap">
   <header class="mast">
-    <div class="row"><h1>The Territory Wrap</h1><span class="date">{esc(edition_label)}</span></div>
-    <p class="tag">Good-news fishing, outdoors &amp; brand watch — Top End and beyond</p>
+    <div class="row"><h1>{esc(CONFIG['podcast_title'])}</h1><span class="date">{esc(edition_label)}</span></div>
+    <p class="tag">{esc(CONFIG['podcast_subtitle'])}</p>
   </header>
   {banner}
   {player}
   <div class="toolbar"><button id="toggleArch" onclick="toggleArchived()">Show archived</button></div>
 {body_sections}
-  <footer>The Territory Wrap · Bees Creek, NT · your morning good-news &amp; brand desk</footer>
+  <footer>{esc(CONFIG['podcast_title'])} · Bees Creek, NT · {esc(CONFIG['podcast_subtitle'])}</footer>
 </div>
 <script>
   const KEY='tw_read';

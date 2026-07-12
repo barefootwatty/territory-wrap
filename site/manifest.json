@@ -1,7 +1,7 @@
 {
-  "name": "The Territory Wrap",
-  "short_name": "Territory Wrap",
-  "description": "Good news from the bush, the boat and the bar-mouth.",
+  "name": "Barefoot Daily News Bulletin",
+  "short_name": "Barefoot Daily",
+  "description": "A daily good-news bulletin covering recreational fishing, the outdoors and the Northern Territory.",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#f6efe6",
