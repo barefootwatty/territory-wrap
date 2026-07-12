@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
-"""Cloud publish step for The Territory Wrap — runs in the GitHub Action, NOT the
-walled daily sandbox.
+"""Cloud publish step for the Barefoot Daily News Bulletin — runs in the GitHub
+Action, NOT the walled daily sandbox.
 
 The daily builder (sandbox) can't reach ElevenLabs, so it pushes the day's spoken
 SCRIPT (episodes/<date>.script.txt) + meta + the site to GitHub. This script then
 runs on GitHub's runners (open internet + the ELEVENLABS_API_KEY secret) and:
 
   1. Finds the newest episode script that has no rendered MP3 yet.
-  2. Renders it in Hannah's voice via ElevenLabs (espeak-ng CLI fallback).
+  2. Renders it in whichever voice is configured in engine/config.json (voice
+     block) via ElevenLabs (espeak-ng CLI fallback). To try a different voice,
+     edit config.json's voice_name/voice_id and push — nothing in this script
+     needs to change.
   3. Probes the real duration + filesize and patches episodes/<date>.json.
   4. Rebuilds feed.xml + data.json + index.html so the podcast + site carry the
-     correct Hannah audio, duration and size.
+     correct audio, duration and size.
 
 The Action then commits the regenerated text files + the MP3.
 
@@ -43,7 +46,7 @@ def _download_image(url, dest_noext):
     or '' if it isn't a real image. News CDNs often block hotlinking from another
     origin, so we copy the photo here and serve it same-origin from site/img/."""
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; TerritoryWrap/1.0; +https://territory-wrap.vercel.app)",
+        "User-Agent": f"Mozilla/5.0 (compatible; BarefootDailyNews/1.0; +{CONFIG.get('base_url', '')})",
         "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
         "Referer": url,
     })

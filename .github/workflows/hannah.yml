@@ -1,10 +1,15 @@
-name: Render Hannah audio & publish
+name: Render voice audio & publish
 
 # Runs on GitHub's servers (open internet + the ElevenLabs secret) after the
-# 5:30am builder pushes the day's script. Renders the MP3 in Hannah's voice,
-# fixes the feed/site duration + size, and commits the result. Vercel then
-# redeploys automatically. Commits made with GITHUB_TOKEN do NOT retrigger this
-# workflow, so there's no loop.
+# 5:30am builder pushes the day's script, OR whenever engine/config.json changes
+# (e.g. GW swaps to a new ElevenLabs voice_id). Renders the MP3 in whichever
+# voice is configured, fixes the feed/site duration + size, and commits the
+# result. Vercel then redeploys automatically. Commits made with GITHUB_TOKEN
+# do NOT retrigger this workflow, so there's no loop.
+#
+# VOICE SWAPS: this workflow never needs editing to change voice. Just update
+# engine/config.json's "voice" block (voice_name/voice_id) and push — this
+# trigger picks it up and re-renders the newest episode automatically.
 
 on:
   push:
@@ -13,6 +18,7 @@ on:
       - "engine/publish.py"
       - "engine/build_feed.py"
       - "engine/build_site.py"
+      - "engine/config.json"
   workflow_dispatch:
     inputs:
       render_date:
@@ -23,7 +29,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: hannah-publish
+  group: voice-publish
   cancel-in-progress: false
 
 jobs:
@@ -39,7 +45,7 @@ jobs:
       - name: Install audio tools
         run: sudo apt-get update && sudo apt-get install -y ffmpeg espeak-ng
 
-      - name: Render Hannah + rebuild feed/site
+      - name: Render voice + rebuild feed/site
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           RENDER_DATE: ${{ github.event.inputs.render_date }}
@@ -47,7 +53,7 @@ jobs:
 
       - name: Commit audio + feed
         run: |
-          git config user.name  "territory-wrap-bot"
+          git config user.name  "barefoot-daily-news-bot"
           git config user.email "bot@users.noreply.github.com"
           git add -f site/episodes/*.mp3
           git add -f site/img
@@ -55,6 +61,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "Hannah audio + feed"
+            git commit -m "Voice audio + feed"
             git push
           fi

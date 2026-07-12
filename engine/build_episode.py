@@ -5,14 +5,16 @@ Usage: python3 build_episode.py <path-to-stories.json>
 
 Composes a spoken script (title read, up-front headline summary, then section by
 section), writes it to episodes/<date>.script.txt, and renders audio via the
-pluggable voice provider (ElevenLabs/Hannah at the hosting layer; espeak fallback).
+pluggable voice provider (ElevenLabs, whichever voice is set in config.json, at
+the hosting layer; espeak fallback). To change voice, edit config.json only —
+nothing here needs to change.
 """
 import sys, os, json, re, subprocess, datetime, shutil
 import tts_provider
 
 # Phonetic respellings applied to the SPOKEN script ONLY, so tricky place names
 # read correctly in the audio. The headlines/summaries in the data and on the
-# dashboard stay spelled correctly — this only rewrites what Emma actually says.
+# dashboard stay spelled correctly — this only rewrites what the voice actually says.
 # Extend freely: {correct spelling: how it should sound}.
 PRONUNCE = {
     "Kiritimati": "Kiriss-mass",
@@ -62,11 +64,11 @@ def episode_title(data):
 def compose_script(data):
     parts = []
     parts.append(episode_title(data) + ".")
-    parts.append(data.get("intro", f"Good morning Watty. Here's {CONFIG['podcast_title']}."))
+    parts.append(data.get("intro", f"Good morning. Here is the {CONFIG['podcast_title']}."))
     # up-front rundown of everything in the dashboard
     heads = [s["headline"] for s in data["stories"]]
     if heads:
-        parts.append("Here's what's in today's wrap. " + "; ".join(heads) + ".")
+        parts.append("In today's bulletin: " + "; ".join(heads) + ".")
     # group by section, in running order
     by_cat = {}
     for s in data["stories"]:
@@ -79,7 +81,7 @@ def compose_script(data):
         parts.append(f"{cat}.")
         for s in by_cat[cat]:
             parts.append(s.get("spoken") or s.get("summary", ""))
-    parts.append(data.get("outro", "That's your wrap. Have a cracker of a day. Tight lines."))
+    parts.append(data.get("outro", f"That's the {CONFIG['podcast_title']} for today."))
     return apply_pronunciation("\n\n".join(p.strip() for p in parts if p.strip()))
 
 

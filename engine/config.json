@@ -1,8 +1,8 @@
 {
-  "podcast_title": "The Territory Wrap",
-  "podcast_subtitle": "Good news from the bush, the boat and the bar-mouth",
-  "podcast_description": "A light, good-news morning bulletin for Watty and the family in Bees Creek, NT. Recreational fishing and outdoors news from the Northern Territory, Australia and further afield, with the doom-and-gloom left out. Built for the school run.",
-  "podcast_author": "Watty",
+  "podcast_title": "Barefoot Daily News Bulletin",
+  "podcast_subtitle": "Fishing, outdoors and Northern Territory news",
+  "podcast_description": "A daily good-news bulletin covering recreational fishing, the outdoors and the Northern Territory, Australia and further afield, with the doom-and-gloom left out.",
+  "podcast_author": "Glenn Watt",
   "podcast_owner_name": "Glenn Watt",
   "podcast_owner_email": "glenn@barefootfishingsafaris.com.au",
   "podcast_language": "en-au",
@@ -11,7 +11,7 @@
   "base_url": "https://territory-wrap.vercel.app",
   "retention_days": 30,
   "public_exclude_categories": ["Director & Brand Watch"],
-  "git_remote": "https://github.com/barefootwatty/territory-wrap.git",
+  "git_remote": "https://github.com/barefootwatty/barefoot-daily-news.git",
   "_media_note": "FUTURE Supabase: set media_base_url + media_bucket and uncomment the upload block in publish.py to move MP3s off git.",
   "voice": {
     "provider": "elevenlabs",
