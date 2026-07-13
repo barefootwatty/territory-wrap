@@ -2,10 +2,10 @@
   "date": "2026-07-13",
   "edition": "Monday 13 July 2026",
   "title": "Barefoot Daily News Bulletin \u2014 Monday 13 July 2026",
-  "duration": 96.1,
-  "filesize": 1153612,
+  "duration": 99.5,
+  "filesize": 1592050,
   "mp3": "episodes/2026-07-13.mp3",
-  "voice": "espeak",
+  "voice": "elevenlabs",
   "intro": "Good morning. It's Monday the thirteenth of July, and this is the Barefoot Daily News Bulletin, bringing you the good news from the water, the bush and the bar-mouth.",
   "stories": [
     {
@@ -26,8 +26,8 @@
       "spoken": "Some good news for the conservation and habitat side of things. Two new artificial reefs have been installed off Coffs Harbour, each a fifty tonne steel structure standing twelve metres tall, designed to support mackerel, snapper, mulloway and baitfish. They join twelve other reefs already along the New South Wales coast, funded through the Recreational Fishing Trust and the Marine Estate Management Strategy.",
       "source": "Fishing World",
       "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
-      "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/unnamed-65.png"
+      "image": "img/2026-07-13/2.png"
     }
   ],
-  "built_at": "2026-07-13T11:31:47"
+  "built_at": "2026-07-13T02:02:39"
 }
