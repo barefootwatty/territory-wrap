@@ -2,11 +2,11 @@
   "date": "2026-07-13",
   "edition": "Monday 13 July 2026",
   "title": "Barefoot Daily News Bulletin \u2014 Monday 13 July 2026",
-  "duration": 99.5,
-  "filesize": 1592050,
+  "duration": 345.8,
+  "filesize": 4150379,
   "mp3": "episodes/2026-07-13.mp3",
-  "voice": "elevenlabs",
-  "intro": "Good morning. It's Monday the thirteenth of July, and this is the Barefoot Daily News Bulletin, bringing you the good news from the water, the bush and the bar-mouth.",
+  "voice": "espeak",
+  "intro": "Good morning. It's Monday the thirteenth of July, and this is the Barefoot Daily News Bulletin, bringing you the good news from the water, the bush and the bar-mouth, from the Top End and further afield.",
   "stories": [
     {
       "id": 1,
@@ -20,14 +20,95 @@
     },
     {
       "id": 2,
+      "category": "Rec Fishing & the Bodies",
+      "headline": "Bassmaster unveils 2026 rankings of America's 100 best bass lakes",
+      "summary": "Bassmaster Magazine has released its 2026 100 Best Bass Lakes rankings, timed to the United States' two-hundred-and-fiftieth anniversary on the second of July. The list showcases the nation's premier largemouth, smallmouth and spotted bass fisheries from coast to coast, with California's Clear Lake topping the rankings ahead of Lake J.B. Thomas in Texas, the St. Lawrence River in New York, the Santee Cooper Lakes in South Carolina and Lake St. Clair in Michigan.",
+      "spoken": "Over in the United States, Bassmaster Magazine has released its 2026 rankings of America's hundred best bass lakes, timed to the country's two-hundred-and-fiftieth birthday. Clear Lake in California topped the list, ahead of Lake J.B. Thomas in Texas, the St. Lawrence River in New York, the Santee Cooper Lakes in South Carolina and Lake St. Clair in Michigan.",
+      "source": "Bassmaster / PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/bassmaster-unveils-2026-100-best-bass-lakes-rankings-celebrating-americas-greatest-fisheries-during-america250-302817023.html",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "category": "Top End (NT local)",
+      "headline": "Bureau of Meteorology declares El Ni\u00f1o underway, monsoon onset likely delayed in the north",
+      "summary": "The Bureau of Meteorology has declared that El Ni\u00f1o is now underway in the tropical Pacific and is likely to persist into next year, with some forecast models pointing to one of the strongest events on record. For northern Australia, including the Top End, El Ni\u00f1o typically means a delayed monsoon onset, below average spring rainfall and warmer than average days, alongside an increased fire risk further south.",
+      "spoken": "A weather update with real implications for Territory fishing. The Bureau of Meteorology has declared that El Ni\u00f1o is now underway, and it could be one of the strongest events on record. For the Top End, that typically means a delayed monsoon onset and a drier, warmer run through spring, which is worth keeping in mind when planning the next few months on the water.",
+      "source": "Weatherzone / Bureau of Meteorology",
+      "url": "https://www.weatherzone.com.au/news/el-nino-is-here-and-it-could-challenge-records-in-2026/1891410",
+      "image": "https://news-images.weatherzone.com.au/2026%20B2C%20Images/global_sst_anom_20260614.png"
+    },
+    {
+      "id": 4,
+      "category": "International & Destinations",
+      "headline": "Garmin unveils LiveScope 2 live-scan sonar series",
+      "summary": "Garmin has launched its LiveScope 2 series, the next generation of its live-scanning sonar technology, with three new transducer models offering up to 20 per cent higher resolution and a redesigned installation that removes the need for an external black box. The range includes a standard model scanning out to 250 feet, a shorter-range high-detail model, and a cold-weather ice fishing transducer, priced from 1,999 to 2,199 US dollars.",
+      "spoken": "In fishing technology, Garmin has unveiled its LiveScope 2 series of live-scan sonar. The new units offer up to twenty per cent higher resolution, a simpler installation with no external black box, and models tailored for open water, close-range casting and cold-weather ice fishing. Prices start at around two thousand US dollars.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/fishing-industry-news/garmin-unveils-new-livescope-2-live-scan-sonar",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Garmin-LiveScope2-ontheboat.webp"
+    },
+    {
+      "id": 5,
+      "category": "International & Destinations",
+      "headline": "Georgia's coast sees a hot start to July with red snapper season on hold",
+      "summary": "Georgia's saltwater fishing report for July describes much warmer than normal coastal water temperatures driving steady inshore fishing for flounder, redfish and trout, with tarpon expected to arrive on the beachfronts through the month. Offshore, the genuine red snapper season remains closed pending a federal court case, while gag grouper fishing stays open until the second of August.",
+      "spoken": "Over in the United States, Georgia's coast is off to a hot start for July, with warmer than normal water pushing good flounder, redfish and trout fishing inshore, and tarpon expected on the beaches as the month goes on. Offshore, the red snapper season remains on hold pending a federal court case, while gag grouper fishing stays open until early August.",
+      "source": "Georgia Outdoor News",
+      "url": "https://gon.com/fishing-reports/georgia-saltwater-fishing-report-july-2026",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "category": "Fly Fishing",
+      "headline": "Fly-rod anglers join the dice and urchin lure craze",
+      "summary": "As soft-plastic dice and urchin lures sweep bass fishing, fly-rodders have begun tying their own scaled-down versions for panfish and bass. Iowa angler Gene Murray makes mini dice bugs from cut-down soft-plastic worms and rubber legs on a size six hook, taking bluegill and largemouth bass to four and a half pounds on a three or four weight rod, while a Washington angler is tying a yarn-based version aimed at largemouth and smallmouth.",
+      "spoken": "A fresh idea from the fly bench. As dice and urchin lures sweep bass fishing overseas, fly-rod anglers have started tying their own scaled-down versions. One Iowa angler makes mini dice bugs from cut-down soft-plastic worms and rubber legs, taking bluegill and bass up to four and a half pounds on a light fly rod, while a Washington angler is trying a yarn-based version for largemouth and smallmouth.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/news/fly-rod-anglers-are-now-joining-in-on-the-dice-and-urchin-lure-craze",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/06/Murray-Mini-Dice-Bug-Bluegill-with-lure.webp",
+      "link_label": "\u25b6 Read how the dice-bug flies are tied"
+    },
+    {
+      "id": 7,
+      "category": "Social & Catches",
+      "headline": "Missouri angler lands a pair of catfish totalling 178 pounds in one hookup",
+      "summary": "Missouri River regular Brad Hilton hooked two blue catfish at once on cut buffalo fish baits, landing a 77-pounder he released and a 101.36-pound fish measuring 56 inches long. Fishing from an 18-foot aluminium boat on heavy tackle, Hilton said the pair, weighing just over 178 pounds combined, fulfilled a lifelong ambition to land a 100-pound-plus catfish from the Missouri or Mississippi rivers.",
+      "spoken": "A big one from the Missouri River. Angler Brad Hilton hooked two blue catfish at the same time on cut buffalo fish baits, landing a seventy-seven pounder he released, plus a one-hundred-and-one-pound fish measuring fifty-six inches long. Combined, the pair weighed just over one hundred and seventy-eight pounds, and Hilton said it fulfilled a lifelong ambition to land a hundred-pound catfish.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/news/angler-catches-two-catfish-at-once-puts-178-pounds-in-his-boat-with-the-pair",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Brad-Hilton-blue-catfish-lead.webp"
+    },
+    {
+      "id": 8,
+      "category": "Social & Catches",
+      "headline": "Michigan shoreline angler lands 48.1-pound flathead catfish",
+      "summary": "Andrew Karsten was fishing the tailrace below the Berrien Springs Dam on Michigan's St. Joseph River when a dam-gate release triggered a feeding frenzy, and he hooked a flathead catfish on a live rock bass bait. The fish measured 46 inches and weighed 48.1 pounds, and was released after being measured for a Michigan Master Angler catch-and-release entry.",
+      "spoken": "From the United States, a shoreline catch worth a mention. Angler Andrew Karsten was fishing below a dam on Michigan's St Joseph River when a gate release triggered a feeding frenzy, and he hooked a flathead catfish on a live rock bass bait. The fish measured forty-six inches and weighed forty-eight-point-one pounds, and was released after being logged for a state catch-and-release record.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/news/shoreline-angler-targeting-a-michigan-monster-catches-48-1-pound-catfish",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Adrew-Karsten-and-big-Michigan-catfish-lead.webp"
+    },
+    {
+      "id": 9,
+      "category": "Lighter Side",
+      "headline": "Florida angler fights off alligator with his own fishing rod",
+      "summary": "North Fort Myers angler James Grayson McMicken, 71, was attacked by an alligator moments after his first cast on a canal bank, and was dragged into the water before fending it off by jabbing the animal in the eye with his fishing rod. McMicken required stitches and staples for bite wounds but says he plans to return to fishing once he recovers, with wildlife officers still searching for the animal involved.",
+      "spoken": "A story with a happy ending from Florida. Seventy-one-year-old angler James Grayson McMicken was attacked by an alligator moments after his first cast, and was dragged into a canal before fighting the animal off by jabbing it in the eye with his own fishing rod. He needed stitches and staples for his injuries, but says he is already planning his next fishing trip.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/news/florida-man-fights-off-alligator-with-fishing-rod-after-being-dragged-into-canal",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/James-Grayson-McMicken.webp"
+    },
+    {
+      "id": 10,
       "category": "Conservation",
       "headline": "New artificial reef installed off Coffs Harbour to boost fish stocks",
       "summary": "Two new steel artificial reef structures have been installed about two kilometres south-west of Sawtell and ten kilometres south of Coffs Harbour, each with a footprint of 15.6 by 15.6 metres, standing 12 metres tall and weighing 50 tonnes. Designed by naval architects, coastal engineers and biologists, the reefs are built to support mackerel, snapper, mulloway and baitfish, and join twelve other artificial reefs already installed along the New South Wales coast. The project was funded through the Recreational Fishing Trust and the Marine Estate Management Strategy.",
       "spoken": "Some good news for the conservation and habitat side of things. Two new artificial reefs have been installed off Coffs Harbour, each a fifty tonne steel structure standing twelve metres tall, designed to support mackerel, snapper, mulloway and baitfish. They join twelve other reefs already along the New South Wales coast, funded through the Recreational Fishing Trust and the Marine Estate Management Strategy.",
       "source": "Fishing World",
       "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
-      "image": "img/2026-07-13/2.png"
+      "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/unnamed-65.png"
     }
   ],
-  "built_at": "2026-07-13T02:02:39"
+  "built_at": "2026-07-13T11:41:11"
 }
