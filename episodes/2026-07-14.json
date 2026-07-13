@@ -2,10 +2,10 @@
   "date": "2026-07-14",
   "edition": "Tuesday 14 July 2026",
   "title": "Barefoot Daily News Bulletin \u2014 Tuesday 14 July 2026",
-  "duration": 160.1,
-  "filesize": 1921298,
+  "duration": 168.2,
+  "filesize": 2691701,
   "mp3": "episodes/2026-07-14.mp3",
-  "voice": "espeak",
+  "voice": "elevenlabs",
   "intro": "Good morning. It's Tuesday the fourteenth of July, and here's the Barefoot Daily News Bulletin \u2014 today's good news from fishing and the outdoors, from the Top End and around the world.",
   "stories": [
     {
@@ -16,7 +16,7 @@
       "spoken": "A trip to catch dinner turned into a state record for Ohio angler Jeret Stevens. Fishing a farm pond near his parents' home with a simple worm and bobber rig, the professional chef hooked a green sunfish that tipped certified scales at one point three five pounds \u2014 enough to claim the new Ohio state record, beating a mark that had stood since twenty eighteen.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/farm-pond-angler-breaks-state-green-sunfish-record-from-2018",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Record-Ohio-green-sunfish.webp"
+      "image": "img/2026-07-14/1.webp"
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "spoken": "Tackle maker Z-Man Fishing has introduced a new sinking version of its ElaZtech soft plastic material, launching in two bass lures \u2014 the Kingpin stickbait and the Stuntman jerkbait. Rather than relying on salt to add weight, the density is built into the polymer itself, giving anglers a sink rate that stays consistent no matter how much the bait is fished. Both lures are made in the United States and land at retailers this coming autumn, priced at around seven US dollars each.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/fishing-industry-news/zman-introduces-kingpin-stuntman-lures-sinking-elaztech",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Kingpin_LMB_Feider_ZMan.webp"
+      "image": "img/2026-07-14/2.webp"
     },
     {
       "id": 3,
@@ -46,8 +46,8 @@
       "spoken": "Wildlife agencies across the United States are calling on recreational anglers to help stop the spread of invasive fish species this month. In Wisconsin, a two-week Great Lakes initiative has volunteers greeting boaters at ramps with simple clean, drain and dry advice, while Colorado and Maryland are running cash-incentive tournaments targeting invasive pike and blue catfish, and Florida's Lionfish Challenge rewards anglers for every lionfish they remove from state waters.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/stop-the-spread-of-invasive-species-no-matter-where-youre-fishing",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/06/Sharptown-Catfish-Tournament.webp"
+      "image": "img/2026-07-14/4.webp"
     }
   ],
-  "built_at": "2026-07-14T05:59:58"
+  "built_at": "2026-07-13T20:31:17"
 }
