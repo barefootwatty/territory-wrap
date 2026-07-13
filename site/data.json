@@ -1,16 +1,16 @@
 {
   "podcast_title": "Barefoot Daily News Bulletin",
   "base_url": "https://barefoot-daily-news.vercel.app",
-  "updated": "2026-07-13T11:41:11",
+  "updated": "2026-07-13T02:13:39",
   "episodes": [
     {
       "date": "2026-07-13",
       "edition": "Monday 13 July 2026",
       "title": "Barefoot Daily News Bulletin \u2014 Monday 13 July 2026",
-      "duration": 345.8,
-      "filesize": 4150379,
+      "duration": 370.6,
+      "filesize": 5929631,
       "mp3": "episodes/2026-07-13.mp3",
-      "voice": "espeak",
+      "voice": "elevenlabs",
       "intro": "Good morning. It's Monday the thirteenth of July, and this is the Barefoot Daily News Bulletin, bringing you the good news from the water, the bush and the bar-mouth, from the Top End and further afield.",
       "stories": [
         {
@@ -41,7 +41,7 @@
           "spoken": "A weather update with real implications for Territory fishing. The Bureau of Meteorology has declared that El Ni\u00f1o is now underway, and it could be one of the strongest events on record. For the Top End, that typically means a delayed monsoon onset and a drier, warmer run through spring, which is worth keeping in mind when planning the next few months on the water.",
           "source": "Weatherzone / Bureau of Meteorology",
           "url": "https://www.weatherzone.com.au/news/el-nino-is-here-and-it-could-challenge-records-in-2026/1891410",
-          "image": "https://news-images.weatherzone.com.au/2026%20B2C%20Images/global_sst_anom_20260614.png"
+          "image": "img/2026-07-13/3.png"
         },
         {
           "id": 4,
@@ -51,7 +51,7 @@
           "spoken": "In fishing technology, Garmin has unveiled its LiveScope 2 series of live-scan sonar. The new units offer up to twenty per cent higher resolution, a simpler installation with no external black box, and models tailored for open water, close-range casting and cold-weather ice fishing. Prices start at around two thousand US dollars.",
           "source": "Wired2Fish",
           "url": "https://www.wired2fish.com/fishing-industry-news/garmin-unveils-new-livescope-2-live-scan-sonar",
-          "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Garmin-LiveScope2-ontheboat.webp"
+          "image": "img/2026-07-13/4.webp"
         },
         {
           "id": 5,
@@ -71,7 +71,7 @@
           "spoken": "A fresh idea from the fly bench. As dice and urchin lures sweep bass fishing overseas, fly-rod anglers have started tying their own scaled-down versions. One Iowa angler makes mini dice bugs from cut-down soft-plastic worms and rubber legs, taking bluegill and bass up to four and a half pounds on a light fly rod, while a Washington angler is trying a yarn-based version for largemouth and smallmouth.",
           "source": "Wired2Fish",
           "url": "https://www.wired2fish.com/news/fly-rod-anglers-are-now-joining-in-on-the-dice-and-urchin-lure-craze",
-          "image": "https://www.wired2fish.com/wp-content/uploads/2026/06/Murray-Mini-Dice-Bug-Bluegill-with-lure.webp",
+          "image": "img/2026-07-13/6.webp",
           "link_label": "\u25b6 Read how the dice-bug flies are tied"
         },
         {
@@ -82,7 +82,7 @@
           "spoken": "A big one from the Missouri River. Angler Brad Hilton hooked two blue catfish at the same time on cut buffalo fish baits, landing a seventy-seven pounder he released, plus a one-hundred-and-one-pound fish measuring fifty-six inches long. Combined, the pair weighed just over one hundred and seventy-eight pounds, and Hilton said it fulfilled a lifelong ambition to land a hundred-pound catfish.",
           "source": "Wired2Fish",
           "url": "https://www.wired2fish.com/news/angler-catches-two-catfish-at-once-puts-178-pounds-in-his-boat-with-the-pair",
-          "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Brad-Hilton-blue-catfish-lead.webp"
+          "image": "img/2026-07-13/7.webp"
         },
         {
           "id": 8,
@@ -92,7 +92,7 @@
           "spoken": "From the United States, a shoreline catch worth a mention. Angler Andrew Karsten was fishing below a dam on Michigan's St Joseph River when a gate release triggered a feeding frenzy, and he hooked a flathead catfish on a live rock bass bait. The fish measured forty-six inches and weighed forty-eight-point-one pounds, and was released after being logged for a state catch-and-release record.",
           "source": "Wired2Fish",
           "url": "https://www.wired2fish.com/news/shoreline-angler-targeting-a-michigan-monster-catches-48-1-pound-catfish",
-          "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Adrew-Karsten-and-big-Michigan-catfish-lead.webp"
+          "image": "img/2026-07-13/8.webp"
         },
         {
           "id": 9,
@@ -102,7 +102,7 @@
           "spoken": "A story with a happy ending from Florida. Seventy-one-year-old angler James Grayson McMicken was attacked by an alligator moments after his first cast, and was dragged into a canal before fighting the animal off by jabbing it in the eye with his own fishing rod. He needed stitches and staples for his injuries, but says he is already planning his next fishing trip.",
           "source": "Wired2Fish",
           "url": "https://www.wired2fish.com/news/florida-man-fights-off-alligator-with-fishing-rod-after-being-dragged-into-canal",
-          "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/James-Grayson-McMicken.webp"
+          "image": "img/2026-07-13/9.webp"
         },
         {
           "id": 10,
@@ -112,19 +112,19 @@
           "spoken": "Some good news for the conservation and habitat side of things. Two new artificial reefs have been installed off Coffs Harbour, each a fifty tonne steel structure standing twelve metres tall, designed to support mackerel, snapper, mulloway and baitfish. They join twelve other reefs already along the New South Wales coast, funded through the Recreational Fishing Trust and the Marine Estate Management Strategy.",
           "source": "Fishing World",
           "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
-          "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/unnamed-65.png"
+          "image": "img/2026-07-13/10.png"
         }
       ],
-      "built_at": "2026-07-13T11:41:11"
+      "built_at": "2026-07-13T02:13:37"
     },
     {
       "date": "2026-07-10",
       "edition": "Friday 10 July 2026",
       "title": "A new reef down south and a barra tug-of-war",
-      "duration": 144.5,
-      "filesize": 1733844,
+      "duration": 118.3,
+      "filesize": 1893399,
       "mp3": "episodes/2026-07-10.mp3",
-      "voice": "espeak",
+      "voice": "elevenlabs",
       "intro": "G'day Watty, and good morning \u2014 it's Friday the tenth of July, another cracker of a dry-season day in the Top End. Fresh news was a bit thin on the ground this morning, so we're running lean rather than padding it out. But there's a good one out of New South Wales worth knowing, and a fly clip to fire you up for the weekend. Here's your Territory Wrap.",
       "stories": [
         {
@@ -135,7 +135,7 @@
           "spoken": "First up, a good one out of New South Wales. There's a brand-new artificial reef been sunk off Coffs Harbour, built to boost the rec fishing and a bit of coastal tourism along with it. It's a serious bit of kit \u2014 two steel structures, each about fifteen and a half metres square and twelve metres tall, weighing fifty tonnes apiece. They've been dropped around five hundred metres apart in twenty-eight metres of water, about ten kilometres south of Coffs. The whole thing was designed by naval architects and biologists to cop a one-in-a-hundred-year storm and keep sitting there, quietly turning into prime habitat for mackerel, snapper, mulloway and baitfish. It's the fourteenth of these reefs now along the New South Wales coast, paid for out of the Recreational Fishing Trust \u2014 so that's your fishing licence money going straight back into more fish. Good to see.",
           "source": "Fishing World",
           "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
-          "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/unnamed-65.png"
+          "image": "img/2026-07-10/1.png"
         },
         {
           "id": 2,
@@ -145,20 +145,20 @@
           "spoken": "And to round it out, a bit of fly inspiration for the drive home. Flylords ran a clip following an Aussie bloke, Mathew Scholz \u2014 he's the fella behind the Pelagic Pursuit channel \u2014 sight-casting to big barra on the fly. It's the good stuff: fish jammed up tight in heavy structure, big rods, and once he hooks up it turns into an absolute tug-of-war with one of the angriest fish in the country. It's not hot-off-the-press news, but it's a ripper watch to get the casting arm warmed up before the weekend. Link's on the dashboard if you want a squiz.",
           "source": "Flylords Mag",
           "url": "https://flylordsmag.com/video-of-the-week-barramundi-on-the-fly-with-pelagic-pursuit/",
-          "image": "https://flylordsmag.com/wp-content/uploads/2021/02/Image-1.jpeg",
+          "image": "img/2026-07-10/2.jpg",
           "link_label": "\u25b6 Watch the barra-on-fly film"
         }
       ],
-      "built_at": "2026-07-10T09:08:14"
+      "built_at": "2026-07-12T01:47:28"
     },
     {
       "date": "2026-07-08",
       "edition": "Wednesday 8 July 2026",
       "title": "Snapper smiles and a saltwater double haul",
-      "duration": 136.5,
-      "filesize": 1637922,
+      "duration": 118.1,
+      "filesize": 1890473,
       "mp3": "episodes/2026-07-08.mp3",
-      "voice": "espeak",
+      "voice": "elevenlabs",
       "intro": "G'day Watty, and good morning \u2014 it's Wednesday the eighth of July, another ripper of a dry-season day in the Top End. Bit of a short wrap today: the fresh news was thin on the ground, so we're running lean rather than padding it out. Two good ones though \u2014 a cracker of a comp down south, and a fly tip worth a look on the drive home. Here's your Territory Wrap.",
       "stories": [
         {
@@ -169,7 +169,7 @@
           "spoken": "First up, a good-news story from down south. The Trophy Hunter Snapper Bash ran out of Coffs Harbour on the New South Wales mid-north coast, and it pulled a huge field \u2014 a hundred and fifty-four boats, all chasing a prize pool worth more than two hundred thousand dollars. It's run by a couple of blokes, Sondal Bensan and Mike Bonnici, who took over from the old Dave Irvine Snapper Classic and rebuilt it as a team comp. By all accounts it's less about the cash and more about the good yarns and the camaraderie \u2014 phone calls between drifts, a beer at the pub after stop-fishing, families making a week of it. The winners this year, Tai Donelan and his crew, blew the field away with a bag of ten cracking snapper. Sounds like a bloody good week on the water.",
           "source": "Fishing World",
           "url": "https://fishingworld.com.au/news/2026-trophy-hunter-snapper-bash/",
-          "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/IMG_4044-scaled.jpg"
+          "image": "img/2026-07-08/1.jpg"
         },
         {
           "id": 2,
@@ -179,20 +179,20 @@
           "spoken": "And here's one for the fly crew. The blokes at Gink and Gasoline have put up a short video breaking down the double haul \u2014 that's the cast that gives you the line speed and the distance, and there's nowhere it matters more than in the salt. A lot of anglers find the double haul a bit of a mystery, so if that's you, it's well worth a watch on the drive home. Get that cast dialled in and you'll be putting the fly where the barra, the queenies and the trevally actually are.",
           "source": "Gink & Gasoline",
           "url": "https://www.ginkandgasoline.com/saltwater-fly-fishing/the-double-haul/",
-          "image": "https://www.ginkandgasoline.com/wp-content/uploads/2011/11/edit-3549-1024x543.jpg",
+          "image": "img/2026-07-08/2.jpg",
           "link_label": "\u25b6 Watch the video"
         }
       ],
-      "built_at": "2026-07-08T05:44:29"
+      "built_at": "2026-07-07T20:15:41"
     },
     {
       "date": "2026-07-07",
       "edition": "Tuesday 7 July 2026",
       "title": "The Territory Wrap \u2014 Tuesday 7 July 2026",
-      "duration": 171.0,
-      "filesize": 2052642,
+      "duration": 151.6,
+      "filesize": 2425461,
       "mp3": "episodes/2026-07-07.mp3",
-      "voice": "espeak",
+      "voice": "elevenlabs",
       "intro": "G'day Watty, good morning. It's Tuesday the seventh of July, another cracker of a dry-season day in the Top End. Here's your Territory Wrap \u2014 the good news from the bush, the boat and the bar-mouth. It's a leaner batch than usual today, the fresh news was a bit quiet, but it's all worth knowing.",
       "stories": [
         {
@@ -203,7 +203,7 @@
           "spoken": "First up, one for the travel side of things. A fresh write-up from Christmas Island \u2014 Kiritimati, out in the Pacific \u2014 paints the usual picture: bonefish everywhere, giant trevally that make you earn every one, and that relentless wind. The angler's take was a good one: it's hunting, not harvesting. You back your own skills and the island rewards you. Still a cracking destination, and the lodges have stayed busy right through the year.",
           "source": "Big Y Fly Co",
           "url": "https://bigyflyco.com/blogs/big-y-fly-fishing-blog/christmas-island-2026-why-this-legendary-destination-still-matters",
-          "image": "https://bigyflyco.com/cdn/shop/articles/20260205_114236_1_d62b796b-112c-4bfc-9ddb-ec0ca0747a64_1200x900.jpg?v=1780597156"
+          "image": "img/2026-07-07/1.webp"
         },
         {
           "id": 2,
@@ -236,7 +236,7 @@
           "image": ""
         }
       ],
-      "built_at": "2026-07-07T15:50:41"
+      "built_at": "2026-07-07T06:38:53"
     }
   ]
 }

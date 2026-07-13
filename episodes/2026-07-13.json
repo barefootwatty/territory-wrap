@@ -2,10 +2,10 @@
   "date": "2026-07-13",
   "edition": "Monday 13 July 2026",
   "title": "Barefoot Daily News Bulletin \u2014 Monday 13 July 2026",
-  "duration": 345.8,
-  "filesize": 4150379,
+  "duration": 370.6,
+  "filesize": 5929631,
   "mp3": "episodes/2026-07-13.mp3",
-  "voice": "espeak",
+  "voice": "elevenlabs",
   "intro": "Good morning. It's Monday the thirteenth of July, and this is the Barefoot Daily News Bulletin, bringing you the good news from the water, the bush and the bar-mouth, from the Top End and further afield.",
   "stories": [
     {
@@ -36,7 +36,7 @@
       "spoken": "A weather update with real implications for Territory fishing. The Bureau of Meteorology has declared that El Ni\u00f1o is now underway, and it could be one of the strongest events on record. For the Top End, that typically means a delayed monsoon onset and a drier, warmer run through spring, which is worth keeping in mind when planning the next few months on the water.",
       "source": "Weatherzone / Bureau of Meteorology",
       "url": "https://www.weatherzone.com.au/news/el-nino-is-here-and-it-could-challenge-records-in-2026/1891410",
-      "image": "https://news-images.weatherzone.com.au/2026%20B2C%20Images/global_sst_anom_20260614.png"
+      "image": "img/2026-07-13/3.png"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "spoken": "In fishing technology, Garmin has unveiled its LiveScope 2 series of live-scan sonar. The new units offer up to twenty per cent higher resolution, a simpler installation with no external black box, and models tailored for open water, close-range casting and cold-weather ice fishing. Prices start at around two thousand US dollars.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/fishing-industry-news/garmin-unveils-new-livescope-2-live-scan-sonar",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Garmin-LiveScope2-ontheboat.webp"
+      "image": "img/2026-07-13/4.webp"
     },
     {
       "id": 5,
@@ -66,7 +66,7 @@
       "spoken": "A fresh idea from the fly bench. As dice and urchin lures sweep bass fishing overseas, fly-rod anglers have started tying their own scaled-down versions. One Iowa angler makes mini dice bugs from cut-down soft-plastic worms and rubber legs, taking bluegill and bass up to four and a half pounds on a light fly rod, while a Washington angler is trying a yarn-based version for largemouth and smallmouth.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/fly-rod-anglers-are-now-joining-in-on-the-dice-and-urchin-lure-craze",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/06/Murray-Mini-Dice-Bug-Bluegill-with-lure.webp",
+      "image": "img/2026-07-13/6.webp",
       "link_label": "\u25b6 Read how the dice-bug flies are tied"
     },
     {
@@ -77,7 +77,7 @@
       "spoken": "A big one from the Missouri River. Angler Brad Hilton hooked two blue catfish at the same time on cut buffalo fish baits, landing a seventy-seven pounder he released, plus a one-hundred-and-one-pound fish measuring fifty-six inches long. Combined, the pair weighed just over one hundred and seventy-eight pounds, and Hilton said it fulfilled a lifelong ambition to land a hundred-pound catfish.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/angler-catches-two-catfish-at-once-puts-178-pounds-in-his-boat-with-the-pair",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Brad-Hilton-blue-catfish-lead.webp"
+      "image": "img/2026-07-13/7.webp"
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
       "spoken": "From the United States, a shoreline catch worth a mention. Angler Andrew Karsten was fishing below a dam on Michigan's St Joseph River when a gate release triggered a feeding frenzy, and he hooked a flathead catfish on a live rock bass bait. The fish measured forty-six inches and weighed forty-eight-point-one pounds, and was released after being logged for a state catch-and-release record.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/shoreline-angler-targeting-a-michigan-monster-catches-48-1-pound-catfish",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Adrew-Karsten-and-big-Michigan-catfish-lead.webp"
+      "image": "img/2026-07-13/8.webp"
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "spoken": "A story with a happy ending from Florida. Seventy-one-year-old angler James Grayson McMicken was attacked by an alligator moments after his first cast, and was dragged into a canal before fighting the animal off by jabbing it in the eye with his own fishing rod. He needed stitches and staples for his injuries, but says he is already planning his next fishing trip.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/florida-man-fights-off-alligator-with-fishing-rod-after-being-dragged-into-canal",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/James-Grayson-McMicken.webp"
+      "image": "img/2026-07-13/9.webp"
     },
     {
       "id": 10,
@@ -107,8 +107,8 @@
       "spoken": "Some good news for the conservation and habitat side of things. Two new artificial reefs have been installed off Coffs Harbour, each a fifty tonne steel structure standing twelve metres tall, designed to support mackerel, snapper, mulloway and baitfish. They join twelve other reefs already along the New South Wales coast, funded through the Recreational Fishing Trust and the Marine Estate Management Strategy.",
       "source": "Fishing World",
       "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
-      "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/unnamed-65.png"
+      "image": "img/2026-07-13/10.png"
     }
   ],
-  "built_at": "2026-07-13T11:41:11"
+  "built_at": "2026-07-13T02:13:37"
 }
