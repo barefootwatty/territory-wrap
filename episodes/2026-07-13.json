@@ -2,10 +2,10 @@
   "date": "2026-07-13",
   "edition": "Monday 13 July 2026",
   "title": "Barefoot Daily News Bulletin \u2014 Monday 13 July 2026",
-  "duration": 66.2,
-  "filesize": 1059152,
+  "duration": 78.4,
+  "filesize": 941393,
   "mp3": "episodes/2026-07-13.mp3",
-  "voice": "elevenlabs",
+  "voice": "espeak",
   "intro": "Good morning. It's Monday the thirteenth of July, and this is the Barefoot Daily News Bulletin, bringing you the good news from the water, the bush and the bar-mouth. It has been a quiet cycle across the fishing and outdoors sector over the past few days, so today's edition runs lean with a single confirmed story.",
   "stories": [
     {
@@ -19,5 +19,5 @@
       "image": ""
     }
   ],
-  "built_at": "2026-07-12T20:18:12"
+  "built_at": "2026-07-13T05:47:01"
 }
