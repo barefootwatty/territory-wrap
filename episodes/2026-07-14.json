@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-14",
+  "edition": "Tuesday 14 July 2026",
+  "title": "Barefoot Daily News Bulletin \u2014 Tuesday 14 July 2026",
+  "duration": 160.1,
+  "filesize": 1921298,
+  "mp3": "episodes/2026-07-14.mp3",
+  "voice": "espeak",
+  "intro": "Good morning. It's Tuesday the fourteenth of July, and here's the Barefoot Daily News Bulletin \u2014 today's good news from fishing and the outdoors, from the Top End and around the world.",
+  "stories": [
+    {
+      "id": 1,
+      "category": "Social & Catches",
+      "headline": "Ohio farm-pond angler lands new state record green sunfish",
+      "summary": "Pioneer, Ohio angler Jeret Stevens set out to catch a feed of fish for dinner but instead landed a state record. Fishing a farm pond near his parents' home with a simple worm-and-bobber rig, the 38-year-old professional chef hooked a green sunfish that certified scales weighed at 1.35 pounds. The Ohio Department of Natural Resources has confirmed it as the new state record, eclipsing a mark that had stood since 2018.",
+      "spoken": "A trip to catch dinner turned into a state record for Ohio angler Jeret Stevens. Fishing a farm pond near his parents' home with a simple worm and bobber rig, the professional chef hooked a green sunfish that tipped certified scales at one point three five pounds \u2014 enough to claim the new Ohio state record, beating a mark that had stood since twenty eighteen.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/news/farm-pond-angler-breaks-state-green-sunfish-record-from-2018",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Record-Ohio-green-sunfish.webp"
+    },
+    {
+      "id": 2,
+      "category": "International & Destinations",
+      "headline": "Z-Man Fishing launches sinking Kingpin and Stuntman soft lures",
+      "summary": "Tackle maker Z-Man Fishing has introduced a new sinking formulation of its signature ElaZtech material, debuting in two bass lures: the Kingpin soft stickbait and the Stuntman soft jerkbait. Unlike traditional salt-weighted soft plastics, the density is built directly into the polymer, giving a sink rate that stays consistent no matter how much the bait is fished. Both lures are made in the United States and reach retailers this coming autumn, priced at around seven US dollars each.",
+      "spoken": "Tackle maker Z-Man Fishing has introduced a new sinking version of its ElaZtech soft plastic material, launching in two bass lures \u2014 the Kingpin stickbait and the Stuntman jerkbait. Rather than relying on salt to add weight, the density is built into the polymer itself, giving anglers a sink rate that stays consistent no matter how much the bait is fished. Both lures are made in the United States and land at retailers this coming autumn, priced at around seven US dollars each.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/fishing-industry-news/zman-introduces-kingpin-stuntman-lures-sinking-elaztech",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Kingpin_LMB_Feider_ZMan.webp"
+    },
+    {
+      "id": 3,
+      "category": "International & Destinations",
+      "headline": "Visiting Georgia angler reels in new Idaho state record brown trout",
+      "summary": "Georgia angler Caroline Langdale was fishing Idaho's iconic South Fork Snake River with guide Ed Emory of South Fork Lodge when she hooked a brown trout that has since been certified as a new Idaho catch-and-release state record. The fish was measured and released unharmed, with Langdale telling Idaho Fish and Game she never expected the fish of a lifetime that day.",
+      "spoken": "Visiting angler Caroline Langdale, from Georgia, was fishing Idaho's South Fork Snake River with a local guide when she hooked what's since been certified as a new Idaho catch-and-release state record brown trout. The fish was measured and released unharmed, and Langdale said she never dreamed her day on the water would produce the fish of a lifetime.",
+      "source": "The Daily Caller / Idaho Fish and Game",
+      "url": "https://dailycaller.com/2026/07/06/angler-fish-new-state-record-idaho-brown-trout/",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "category": "Conservation",
+      "headline": "US states rally anglers to help stop the spread of invasive species",
+      "summary": "State wildlife agencies across the United States are enlisting recreational anglers in the fight against invasive fish species this month. Wisconsin's two-week Great Lakes Landing Blitz has volunteers greeting boaters at ramps with clean, drain and dry advice, while Colorado and Maryland are running cash-incentive tournaments targeting invasive pike and blue catfish, and Florida's Lionfish Challenge rewards anglers for every lionfish they remove from state waters.",
+      "spoken": "Wildlife agencies across the United States are calling on recreational anglers to help stop the spread of invasive fish species this month. In Wisconsin, a two-week Great Lakes initiative has volunteers greeting boaters at ramps with simple clean, drain and dry advice, while Colorado and Maryland are running cash-incentive tournaments targeting invasive pike and blue catfish, and Florida's Lionfish Challenge rewards anglers for every lionfish they remove from state waters.",
+      "source": "Wired2Fish",
+      "url": "https://www.wired2fish.com/news/stop-the-spread-of-invasive-species-no-matter-where-youre-fishing",
+      "image": "https://www.wired2fish.com/wp-content/uploads/2026/06/Sharptown-Catfish-Tournament.webp"
+    }
+  ],
+  "built_at": "2026-07-14T05:59:58"
+}
