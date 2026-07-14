@@ -14,14 +14,21 @@
   "git_remote": "https://github.com/barefootwatty/barefoot-daily-news.git",
   "_media_note": "FUTURE Supabase: set media_base_url + media_bucket and uncomment the upload block in publish.py to move MP3s off git.",
   "voice": {
-    "provider": "elevenlabs",
-    "voice_name": "Lily",
-    "voice_id": "0QT4OrDTvpDlUPmFsUWN",
-    "model_id": "eleven_multilingual_v2",
-    "api_key_env": "ELEVENLABS_API_KEY",
+    "provider": "openai",
+    "voice_name": "Nova (OpenAI)",
+    "voice_id": "nova",
+    "model_id": "gpt-4o-mini-tts",
+    "api_key_env": "OPENAI_API_KEY",
+    "instructions": "Read like a professional radio news presenter: calm, clear, measured and confident. Neutral Australian English. Even pace, natural sentence rhythm, no exaggeration or hype.",
     "fallback": "espeak",
     "espeak_voice": "en-gb",
     "espeak_rate_wpm": 148,
-    "espeak_pitch": 45
+    "espeak_pitch": 45,
+    "_previous_elevenlabs": {
+      "note": "To revert: set provider to elevenlabs and api_key_env to ELEVENLABS_API_KEY.",
+      "voice_name": "Lily",
+      "voice_id": "0QT4OrDTvpDlUPmFsUWN",
+      "model_id": "eleven_multilingual_v2"
+    }
   }
 }

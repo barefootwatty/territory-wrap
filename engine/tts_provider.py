@@ -39,6 +39,56 @@ def _elevenlabs(text, out_mp3, v):
     return "elevenlabs"
 
 
+def _chunk_text(text, limit=3800):
+    """OpenAI TTS caps input per request (~4096 chars). Split on sentence
+    boundaries into chunks under `limit` so a full bulletin renders in parts."""
+    import re
+    parts, cur = [], ""
+    for sent in re.split(r"(?<=[.!?])\s+", text.strip()):
+        if not sent:
+            continue
+        if cur and len(cur) + len(sent) + 1 > limit:
+            parts.append(cur)
+            cur = sent
+        else:
+            cur = (cur + " " + sent).strip()
+    if cur:
+        parts.append(cur)
+    return parts or [text]
+
+
+def _openai(text, out_mp3, v):
+    """OpenAI TTS (default gpt-4o-mini-tts). Simple API key, ~85% cheaper than
+    ElevenLabs at this volume, and steerable via `instructions`. Renders each
+    text chunk to MP3 and concatenates (fine for spoken-word MP3)."""
+    key = os.environ.get(v.get("api_key_env", "OPENAI_API_KEY"), "")
+    if not key:
+        raise RuntimeError("no OpenAI API key in env")
+    url = "https://api.openai.com/v1/audio/speech"
+    instructions = v.get("instructions",
+        "Read like a professional radio news presenter: calm, clear, measured and "
+        "confident. Neutral Australian English. Even pace, natural sentence rhythm, "
+        "no exaggeration or hype.")
+    audio = bytearray()
+    for chunk in _chunk_text(text):
+        body = json.dumps({
+            "model": v.get("model_id", "gpt-4o-mini-tts"),
+            "input": chunk,
+            "voice": v.get("voice_id", "alloy"),
+            "response_format": "mp3",
+            "instructions": instructions,
+        }).encode()
+        req = urllib.request.Request(url, data=body, method="POST", headers={
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+        })
+        with urllib.request.urlopen(req, timeout=180) as r:
+            audio.extend(r.read())
+    with open(out_mp3, "wb") as f:
+        f.write(bytes(audio))
+    return "openai"
+
+
 def _espeak_cli(text, out_mp3, v):
     """Fallback-of-the-fallback: use a system-installed espeak-ng CLI (e.g. the
     GitHub Action runner does `apt-get install espeak-ng`). Bundled lib not needed."""
@@ -105,7 +155,12 @@ def synth(text, out_mp3, config):
     """Generate speech to out_mp3. Returns the provider actually used."""
     v = config.get("voice", {}) if isinstance(config.get("voice"), dict) else {}
     provider = v.get("provider", "espeak")
-    if provider == "elevenlabs":
+    if provider == "openai":
+        try:
+            return _openai(text, out_mp3, v)
+        except Exception as ex:
+            print(f"[tts] OpenAI unavailable ({ex}); falling back to {v.get('fallback','espeak')}")
+    elif provider == "elevenlabs":
         try:
             return _elevenlabs(text, out_mp3, v)
         except Exception as ex:

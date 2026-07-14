@@ -47,6 +47,7 @@ jobs:
 
       - name: Render voice + rebuild feed/site
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           RENDER_DATE: ${{ github.event.inputs.render_date }}
         run: python3 engine/publish.py
