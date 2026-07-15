@@ -1,8 +1,121 @@
 {
   "podcast_title": "Barefoot Daily News Bulletin",
   "base_url": "https://barefoot-daily-news.vercel.app",
-  "updated": "2026-07-15T02:05:41",
+  "updated": "2026-07-15T23:44:45",
   "episodes": [
+    {
+      "date": "2026-07-16",
+      "edition": "Thursday 16 July 2026",
+      "title": "Barefoot Daily News Bulletin \u2014 Thursday 16 July 2026",
+      "duration": 354.9,
+      "filesize": 5678592,
+      "mp3": "episodes/2026-07-16.mp3",
+      "voice": "openai",
+      "intro": "Good morning. It is Thursday, the sixteenth of July, and here is the day's good news from the water, the outdoors and across the Top End.",
+      "stories": [
+        {
+          "id": 1,
+          "category": "Top End (NT local)",
+          "headline": "Simpson Desert conservation deal marks national milestone",
+          "summary": "A huge swath of the Simpson Desert in the Northern Territory's south-east is now protected through Aboriginal management under a new Indigenous Protected Area covering 47,311 square kilometres. The signing at the remote Uluperte homelands helps Australia reach its target of protecting a quarter of the nation's landmass. The Central Land Council says federal support will fund an IPA co-ordinator and new ranger positions.",
+          "spoken": "An area about two-thirds the size of Tasmania has come under a landmark agreement with Traditional Owners in the Northern Territory. A large stretch of the Simpson Desert in the Territory's south-east is now protected through Aboriginal management, covering more than forty-seven thousand square kilometres. The Central Land Council says the deal will fund a co-ordinator and new ranger jobs, and will allow Traditional Owners to teach younger generations on country. Land custodians say it will help protect sacred sites, manage fire and control feral animals.",
+          "source": "Katherine Times",
+          "url": "https://www.katherinetimes.com.au/story/9311611/aboriginal-conservation-deal-boosts-environmental-goals/",
+          "image": "img/2026-07-16/1.jpg"
+        },
+        {
+          "id": 2,
+          "category": "Top End (NT local)",
+          "headline": "Douglas-Daly station central to NT cotton plans returns to market",
+          "summary": "Blackbull Station, a 14,342-hectare freehold property in the Douglas-Daly region between Darwin and Katherine, has been listed for sale again. The property combines irrigated farming, dryland cropping and grazing, and sits at the heart of the Territory's push to expand broadacre cropping. The NT government has set a target of 100,000 hectares of new broadacre cropping by 2030.",
+          "spoken": "A cattle station seen as pivotal to the Northern Territory's cotton future is back on the market. Blackbull Station, more than fourteen thousand hectares in the Douglas-Daly region between Darwin and Katherine, combines irrigated farming, dryland cropping and grazing. It sits at the centre of the Territory's plan to grow one hundred thousand hectares of new broadacre crops by twenty-thirty, part of a wider effort to diversify an economy long built on cattle. In the last season, the Territory produced around forty-nine thousand bales of cotton.",
+          "source": "Katherine Times",
+          "url": "https://www.katherinetimes.com.au/story/9311624/cattle-station-at-heart-of-the-nts-cotton-future-back-on-the-market/",
+          "image": "img/2026-07-16/2.jpg"
+        },
+        {
+          "id": 3,
+          "category": "Fly Fishing",
+          "headline": "Caye Caulker youngsters finish first fly-fishing and conservation camp",
+          "summary": "Fourteen children from Caye Caulker in Belize have completed the island's first fly-fishing camp, led by San Pedro guide Omar Arceo, known as the 'Dr. of the Flats'. The five-day program combined hands-on fly-fishing instruction with lessons in sustainable fishing and marine conservation. It finished with a saltwater excursion on the western flats off Ambergris Caye.",
+          "spoken": "In Belize, fourteen young people from Caye Caulker have finished their island's first ever fly-fishing camp. Led by a San Pedro flats guide known as the Doctor of the Flats, the five-day program mixed casting instruction with lessons in sustainable fishing and marine conservation, before finishing with a day on the saltwater flats. The guide says he hopes some of these children will become the next generation of flats fishing guides. It is exactly the kind of grounding in saltwater fly fishing that builds a lifelong respect for the water.",
+          "source": "The San Pedro Sun",
+          "url": "https://www.sanpedrosun.com/community-and-society/2026/07/13/caye-caulker-youth-complete-first-fly-fishing-conservation-camp/",
+          "image": ""
+        },
+        {
+          "id": 4,
+          "category": "Rec Fishing & the Bodies",
+          "headline": "Anglers asked to weigh in on Victoria's mulloway rules",
+          "summary": "Recreational anglers are invited to comment on proposed changes to improve Victoria's mulloway fishery, developed by the Victorian Fisheries Authority in partnership with recreational fishers. The package includes cutting the daily bag limit, raising the minimum size, and investing in science and stocking trials. VFA chief executive Travis Dowling said anglers had asked for a lower bag limit, with two fish seen as a reasonable day's take.",
+          "spoken": "Recreational anglers in Victoria are being asked to have their say on a plan to improve the state's mulloway fishery. Developed with fishers themselves, the proposal would cut the daily limit from five fish to two, and lift the minimum size from sixty to seventy centimetres to give the species some ten months of extra protection. The fisheries authority says the changes are aimed at keeping the fishery healthy for the future, alongside new science and trial stocking. Mulloway, sometimes called jewfish, are a prized estuary and coastal target.",
+          "source": "Fishing World",
+          "url": "https://fishingworld.com.au/news/feedback-sought-on-victorias-mulloway-fishery/",
+          "image": ""
+        },
+        {
+          "id": 5,
+          "category": "International & Destinations",
+          "headline": "New artificial reef sunk off Coffs Harbour to lift fishing",
+          "summary": "A new artificial reef has been installed off the Coffs Harbour coast in New South Wales to boost tourism and sustainable recreational fishing. It consists of two 50-tonne steel structures, each 12 metres high, placed about 500 metres apart in 28 metres of water, designed to attract mackerel, snapper, mulloway and baitfish. The reefs join twelve others already installed along the NSW coast.",
+          "spoken": "Off the New South Wales coast at Coffs Harbour, a new artificial reef has been lowered into the sea to boost fishing and tourism. It is made up of two steel structures, each weighing fifty tonnes and standing twelve metres tall, set about five hundred metres apart in twenty-eight metres of water. Engineers and biologists designed the reef to draw in mackerel, snapper, mulloway and baitfish, while standing up to a one-in-a-hundred-year storm. It joins a dozen other reefs already placed along the state's coastline.",
+          "source": "Fishing World",
+          "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
+          "image": ""
+        },
+        {
+          "id": 6,
+          "category": "Conservation",
+          "headline": "Torres Strait clean-up clears 49 tonnes of marine debris",
+          "summary": "A joint operation by the Australian Fisheries Management Authority and Parks Australia has removed about 49 tonnes of marine debris from northern waters, including three abandoned foreign fishing vessels. The vessels and associated gear were cleared from Crab Island, Horn Island and Pearce Cay in the Torres Strait during March and April 2026. Crab Island is a vital nesting site for the flatback turtle.",
+          "spoken": "A major clean-up in the Torres Strait has cleared about forty-nine tonnes of harmful marine debris from northern Australian waters. Working together, the Australian Fisheries Management Authority and Parks Australia removed three abandoned foreign fishing vessels and their gear from three locations. One of the vessels had beached at Crab Island, a vital nesting site for the flatback turtle, where it was dismantled and the beach cleaned up. The others, near Horn Island and Pearce Cay, were retrieved and safely disposed of.",
+          "source": "Mirage News / AFMA",
+          "url": "https://www.miragenews.com/afma-clears-49-tonnes-of-debris-from-northern-1705114/",
+          "image": ""
+        },
+        {
+          "id": 7,
+          "category": "Conservation",
+          "headline": "Numbat's long recovery earns a step back from the brink",
+          "summary": "Australia's numbat, the banded, termite-eating marsupial, has been downlisted from endangered after four decades of conservation work. Recovery efforts including predator control and reintroductions have helped populations improve. Wildlife groups caution that threats such as introduced predators mean the species is not out of danger.",
+          "spoken": "There is heartening news for one of Australia's most distinctive small mammals. The numbat, a striped, termite-eating marsupial, has been officially moved off the endangered list after some forty years of conservation effort. Careful predator control and reintroductions have gradually lifted its numbers. Conservationists are quick to add that the work is far from over, with introduced predators still a serious threat, but for now it stands as a genuine success story.",
+          "source": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/07/once-endangered-australias-numbat-is-making-a-hopeful-recovery/",
+          "image": ""
+        },
+        {
+          "id": 8,
+          "category": "Social & Catches",
+          "headline": "Seven-year-old in pyjamas lands state-record gar",
+          "summary": "On a family camping and fishing trip on the Minnesota River, seven-year-old Isaac Richert caught a 30.5-inch gar that has been recognised as a Minnesota state record. He was fishing with his father Phil and nine-year-old brother Teddy. The catch adds to a remarkable run of record fish in Minnesota this year.",
+          "spoken": "A family fishing trip on the Minnesota River turned into something to remember when seven-year-old Isaac Richert, still in his pyjamas, hauled in a gar measuring thirty and a half inches. Fishing with his father and older brother, the youngster set a new Minnesota state record with the prehistoric-looking catch. It adds to what has been a remarkable year of record fish in the state. Proof that you are never too young, or too casually dressed, to land the fish of a lifetime.",
+          "source": "Wired2Fish",
+          "url": "https://www.wired2fish.com/news/clad-in-his-pajamas-7-year-old-on-a-family-fishing-trip-catches-state-record-gar",
+          "image": "img/2026-07-16/8.webp"
+        },
+        {
+          "id": 9,
+          "category": "Social & Catches",
+          "headline": "Young Idaho angler writes her name in the record books",
+          "summary": "Akeley Fahnholz has landed a new Idaho state catch-and-release record for chiselmouth, a native member of the minnow family, while fishing the Salmon River near the town of Salmon on 8 June. The fish, which rarely grows beyond about a foot, feeds by scraping algae off river rocks with a specially shaped jaw. She released it alive after documenting the catch, and Idaho Fish and Game has certified the record.",
+          "spoken": "In Idaho, a young angler has made her mark on the state record books with an unusual catch. While fishing the Salmon River, Akeley Fahnholz landed a chiselmouth, a native fish from the minnow family that scrapes algae off river rocks with a specially shaped jaw and rarely grows beyond about a foot long. Because such records are set for fish released alive, she measured, photographed and returned it to the water. Idaho Fish and Game has now certified it as the new state catch-and-release record for the species.",
+          "source": "Idaho State Journal",
+          "url": "https://www.idahostatejournal.com/news/local/young-idaho-girl-lands-state-record-with-history-making-chiselmouth/article_073d3fa5-8832-4e92-84d8-2dbd3e457722.html",
+          "image": ""
+        },
+        {
+          "id": 10,
+          "category": "Lighter Side",
+          "headline": "Maine lobstermen land the one-in-fifty-million catch \u2014 twice",
+          "summary": "Two veteran Maine lobstermen on separate trips each hauled up a rare split-coloured lobster within days of one another. Split-coloured lobsters are estimated to occur in only about one in 50 million, the result of a genetic anomaly that is still not fully understood. Captain Justin Dunphey caught his on Georges Bank and plans to donate it to a science centre.",
+          "spoken": "Off the coast of Maine, two experienced lobster fishermen have each pulled up one of the rarest catches in their trade, and they did it just days apart. Both landed a split-coloured lobster, an oddity thought to occur in only about one in fifty million, caused by a genetic quirk that scientists still do not fully understand. One captain, who made his catch on Georges Bank, plans to donate the lobster to a science centre so others can see it. Two such catches in one week is astonishing luck.",
+          "source": "The Lincoln County News",
+          "url": "https://lcnme.com/currentnews/mirror-image-rare-lobsters-surprise-veteran-lobstermen/",
+          "image": ""
+        }
+      ],
+      "built_at": "2026-07-15T23:44:44"
+    },
     {
       "date": "2026-07-15",
       "edition": "Wednesday 15 July 2026",
