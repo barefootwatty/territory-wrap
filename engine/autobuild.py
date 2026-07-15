@@ -154,11 +154,12 @@ The 8 EXACT category strings (use verbatim):
 FRESHNESS (from today's date): Top End / Rec Fishing / Director / Social = at most 3 days old; Conservation / Fly Fishing / International / Lighter = at most 10 days. Confirm the date on the article page — never trust a feed/snippet date.
 
 RULES:
-- Pick 10-12 strong stories across the sections. Always include >=1 Fly Fishing and always scan Director & Brand Watch. A genuine Top End (NT) item is highly valued.
-- Use web_fetch to open each chosen story and CONFIRM the facts from the article body; use web_search to resolve a Google News link to the real publisher or to find a better source. Every fact in "summary" must come from the article body, not the feed title.
+- VOLUME IS A FIRM REQUIREMENT: return AT LEAST 10 stories (aim for 10-12), spread across the sections. The candidate pool below always contains enough good material — if one section is thin, broaden within the wider good-news world of fishing and the outdoors (US bass, gear launches, notable catches anywhere, weather/climate with fishing relevance, human-interest). Coming back with fewer than 10 is a failure unless the whole pool is genuinely exhausted.
+- MANDATORY every day: at least one "Fly Fishing" item AND at least one genuine "Top End (NT local)" item. Always scan "Director & Brand Watch". The NT item is non-negotiable — the pool has NT candidates.
+- FETCHING: many candidate links are Google News redirects that web_fetch may not open. When a link won't open, do NOT drop the story — web_search the headline to find the real publisher (e.g. ABC, NT News, NT Independent, wired2fish) and fetch THAT page. Only drop a story if, after a genuine try, you cannot verify it from ANY source, or it is off-topic / not good-news / too old for its freshness tier. Every fact in "summary" must come from an article body you actually read.
 - NEVER source from Watty's own domains (anglingadventures.com.au/.net.au, barefootfishingsafaris.com.au, barefootfishingacademy). External coverage of his lodges IS wanted.
 - IMAGE: use the article's og:image only if it clearly shows THIS story's subject; reject logos/banners/opengraph-cards/generic stock — set "image" to "" (a styled tile is better than a wrong photo).
-- Drop off-topic keyword-match noise and anything not good-news.
+- Do not repeat a headline that is essentially the same story as one in the recent-editions list you were given.
 
 OUTPUT: return ONLY a JSON object (no prose, no markdown fence) with this exact shape:
 {"date":"<YYYY-MM-DD>","edition":"<Weekday D Month YYYY>","title":"Barefoot Daily News Bulletin — <edition>","intro":"<1-2 sentence professional open naming the day/date>","outro":"<short professional sign-off>","stories":[{"id":1,"category":"<one of the 8 exact strings>","headline":"...","summary":"<2-3 factual sentences from the body>","spoken":"<same story rewritten for the ear: broadcast style, numbers spelled out, no slang, varied openings>","source":"<publisher>","url":"<article url>","image":"<og:image url or empty string>"}]}"""
