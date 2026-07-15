@@ -25,12 +25,14 @@
     },
     {
       "category": "International & Destinations",
-      "queries": ["saltwater fishing travel", "fishing lodge destination", "new fishing gear launch", "sport fishing report"],
+      "note": "Anything to do with Papua New Guinea (PNG) is always welcome — Bensbach, Lake Murray, Sepik, PNG black bass and barramundi, and notable PNG good news.",
+      "queries": ["Papua New Guinea fishing", "PNG barramundi Bensbach", "Lake Murray Papua New Guinea", "Papua New Guinea black bass", "saltwater fishing travel", "fishing lodge destination", "new fishing gear launch"],
       "freshness_days": 10
     },
     {
       "category": "Fly Fishing",
-      "queries": ["fly fishing", "saltwater fly fishing", "barramundi fly", "saratoga fly fishing"],
+      "note": "Strongly prefer SALTWATER species and barramundi. Saltwater fly-tying video recommendations are welcome — include the video link and a link_label.",
+      "queries": ["saltwater fly fishing", "barramundi on fly", "flats fly fishing", "saltwater fly tying pattern video", "fly fishing", "saratoga fly fishing"],
       "freshness_days": 10
     },
     {
