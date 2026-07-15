@@ -1,0 +1,40 @@
+{
+  "_readme": "The tested source list for the daily bulletin. The keyword engine (google_news_rss) is the backbone and works from the sandbox via web_fetch. The direct_feeds are bonus enrichment. do_not_use are tested-dead — never spend time on them. Validated live 2026-07-14.",
+
+  "google_news_rss": {
+    "url_format": "https://news.google.com/rss/search?q={QUERY}&hl=en-AU&gl=AU&ceid=AU:en",
+    "freshness_operator": "when:{DAYS}d",
+    "how_to_use": "URL-encode the interest keywords into {QUERY} (spaces -> %20). To force recency, append the freshness operator to the query text, e.g. q=fly%20fishing%20when:10d. Each returned <item> has a <title>, <link>, <pubDate> (RFC-822) and <source> (the real publisher). Sort by pubDate and drop anything older than the category's freshness_days as a backstop.",
+    "confirmed": "Works via web_fetch AND plain fetch. Returns dated, source-attributed results for any keyword. This is the primary source for every category."
+  },
+
+  "direct_feeds": [
+    { "category": "Top End (NT local)", "name": "ABC NT News", "url": "https://www.abc.net.au/news/feed/5555990/rss.xml", "fetch": "browser-user-agent-required", "note": "General NT news — filter for fishing/outdoors/weather-relevant items. May not load via web_fetch; Google News surfaces ABC stories anyway." },
+    { "category": "Top End (NT local)", "name": "NT Independent", "url": "https://ntindependent.com.au/feed/", "fetch": "browser-user-agent", "note": "WordPress feed; a stray leading <div> may precede the XML — ignore junk before '<?xml'. Some items are subscriber-only." },
+    { "category": "Top End (NT local)", "name": "Katherine Times", "url": "https://www.katherinetimes.com.au/rss.xml", "fetch": "browser-user-agent", "note": "NT rural/regional." },
+    { "category": "Rec Fishing & the Bodies", "name": "OzFish", "url": "https://ozfish.org.au/feed/", "fetch": "browser-user-agent-required", "note": "AU habitat/rec-fishing. Also feeds Conservation. May not load via web_fetch." },
+    { "category": "Rec Fishing & the Bodies", "name": "IGFA", "url": "https://igfa.org/feed/", "fetch": "browser-user-agent", "note": "Records & peak-body news." },
+    { "category": "International & Destinations", "name": "Wired2Fish", "url": "https://www.wired2fish.com/feed/", "fetch": "browser-user-agent", "note": "US, high-volume; also feeds Social & Catches. Real per-article dates." },
+    { "category": "International & Destinations", "name": "Fishing World AU", "url": "https://fishingworld.com.au/feed/", "fetch": "browser-user-agent", "note": "Australian industry/travel." },
+    { "category": "Fly Fishing", "name": "Hatch Magazine", "url": "https://www.hatchmag.com/rss.xml", "fetch": "browser-user-agent", "note": "Freshest fly feed — primary for the mandatory daily fly item." },
+    { "category": "Fly Fishing", "name": "Gink & Gasoline", "url": "https://ginkandgasoline.com/feed/", "fetch": "browser-user-agent", "note": "Reliable daily fly content." },
+    { "category": "Fly Fishing", "name": "Troutbitten", "url": "https://troutbitten.com/feed/", "fetch": "browser-user-agent", "note": "Fly backup." },
+    { "category": "Conservation", "name": "OzFish", "url": "https://ozfish.org.au/feed/", "fetch": "browser-user-agent-required", "note": "Best 'wins' source — restocking, restoration, clean-ups." }
+  ],
+
+  "do_not_use": {
+    "_note": "Tested dead/blocked/stale on 2026-07-14 — the job must skip these permanently and not rediscover them.",
+    "afant.com.au": "JS-rendered blank body — unusable",
+    "ntsc.com.au": "JS-rendered blank body — unusable",
+    "ntnews.com.au": "Paywalled",
+    "newsroom.nt.gov.au": "Cloudflare interstitial — not fetchable server-side",
+    "nt.gov.au feed": "Cloudflare interstitial — not fetchable server-side",
+    "recfishwest.org.au feed": "No working feed",
+    "vrfish.com.au": "403 Forbidden",
+    "recfishsa.com": "No feed (HTML only)",
+    "flyfisherman.com": "403 Forbidden",
+    "midcurrent.com": "Feed valid but ~11 weeks stale — not for a daily item",
+    "bassmaster.com feed": "Valid envelope but no usable dated items — use Google News 'bass fishing' instead",
+    "facebook.com / instagram.com": "Not reachable (login/not indexed)"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_readme": "Watty's news interests. This is the steering wheel for the daily bulletin. To change what the morning job looks for, edit 'temporary_boosts' below (or just ask Claude — 'add camping gear news for a week'). 'standing_interests' are the always-on topics; leave them unless you want a permanent change. Dates are YYYY-MM-DD. 'freshness_days' = only accept stories newer than this many days.",
+  "defaults": {
+    "region": "AU",
+    "language": "en-AU",
+    "min_stories_per_day": 10
+  },
+  "standing_interests": [
+    {
+      "category": "Director & Brand Watch",
+      "private": true,
+      "note": "Brand/family monitoring. Private — stripped from everything public.",
+      "queries": ["Angling Adventures Australia", "Barefoot Fishing Safaris", "\"Watty Watt\" fishing", "Bensbach lodge", "Christmas Island fishing lodge"],
+      "freshness_days": 3
+    },
+    {
+      "category": "Top End (NT local)",
+      "queries": ["Northern Territory fishing", "barramundi Darwin", "Top End fishing NT", "NT barramundi season", "Arnhem Land fishing"],
+      "freshness_days": 3
+    },
+    {
+      "category": "Rec Fishing & the Bodies",
+      "queries": ["recreational fishing Australia", "fisheries management Australia", "OzFish", "Bassmaster tournament", "IGFA record"],
+      "freshness_days": 3
+    },
+    {
+      "category": "International & Destinations",
+      "queries": ["saltwater fishing travel", "fishing lodge destination", "new fishing gear launch", "sport fishing report"],
+      "freshness_days": 10
+    },
+    {
+      "category": "Fly Fishing",
+      "queries": ["fly fishing", "saltwater fly fishing", "barramundi fly", "saratoga fly fishing"],
+      "freshness_days": 10
+    },
+    {
+      "category": "Social & Catches",
+      "queries": ["record fish caught", "huge fish landed", "state record fish"],
+      "freshness_days": 3
+    },
+    {
+      "category": "Lighter Side",
+      "queries": ["funny fishing story", "unusual catch angler", "fishing surprise"],
+      "freshness_days": 10
+    },
+    {
+      "category": "Conservation",
+      "queries": ["fish habitat restoration Australia", "fishery conservation success", "reef restoration"],
+      "freshness_days": 10
+    }
+  ],
+  "temporary_boosts": [
+    {
+      "_example": "This is a sample showing the format. Delete or replace it. 'category' is which section the stories land in; 'expires' is when this boost switches itself off.",
+      "keywords": "fly tying",
+      "category": "Fly Fishing",
+      "added": "2026-07-14",
+      "expires": "2026-07-21"
+    }
+  ]
+}
