@@ -1,120 +1,80 @@
 {
   "podcast_title": "Barefoot Daily News Bulletin",
   "base_url": "https://barefoot-daily-news.vercel.app",
-  "updated": "2026-07-14T22:54:53",
+  "updated": "2026-07-15T01:58:12",
   "episodes": [
     {
       "date": "2026-07-15",
       "edition": "Wednesday 15 July 2026",
       "title": "Barefoot Daily News Bulletin \u2014 Wednesday 15 July 2026",
-      "duration": 380.9,
-      "filesize": 6094080,
+      "duration": 201.5,
+      "filesize": 3223296,
       "mp3": "episodes/2026-07-15.mp3",
       "voice": "openai",
-      "intro": "Good morning. It's Wednesday the fifteenth of July, and here is the Barefoot Daily News Bulletin, with today's fishing and outdoors news from the Top End, around Australia and across the wider world of angling.",
+      "intro": "Good morning and welcome to the Barefoot Daily News Bulletin for Wednesday the fifteenth of July, twenty twenty-six. Here is the good news from the water, the outdoors and the Top End.",
       "stories": [
         {
           "id": 1,
-          "category": "Top End (NT local)",
-          "headline": "Hundreds turn out for the Daly River Barra Classic, running since 1982",
-          "summary": "Hundreds of anglers have gathered on a remote stretch of the Daly River for the week-long Barra Classic, the Northern Territory tournament held on the same river every year since 1982. Australian cricket identity Merv Hughes, who has fished it for close to two decades, described it as the premier fishing competition in the country. Competitors reported a new challenge this year, with sharks taking hooked barramundi before they could be landed.",
-          "spoken": "Hundreds of anglers have gathered on a remote stretch of the Daly River for the week-long Barra Classic, the Northern Territory competition that has run on the same water every year since nineteen eighty-two. Among them is the former Australian fast bowler Merv Hughes, who has fished the event for close to twenty years and calls it the premier fishing competition in the country. One new hurdle this season: sharks have been taking hooked barramundi before anglers can bring them to the boat.",
-          "source": "Oz Arab Media",
-          "url": "https://ozarab.media/daly-river-barra-classic/",
+          "category": "Rec Fishing & the Bodies",
+          "headline": "Forty-nine tonnes of debris cleared from Torres Strait waters",
+          "summary": "The Australian Fisheries Management Authority and Parks Australia removed three abandoned foreign fishing vessels and associated gear from Crab Island, Horn Island and Pearce Cay during operations in March and April 2026, clearing about 49 tonnes of harmful marine debris. Crab Island is a vital nesting site for the flatback turtle, where a beached vessel was dismantled and steel material removed. An 80-metre net was recovered from the wreck at Pearce Cay and taken to a land-based facility for disposal.",
+          "spoken": "A major clean-up has cleared roughly forty-nine tonnes of harmful marine debris from waters in the Torres Strait. Working across autumn, the Australian Fisheries Management Authority and Parks Australia recovered three abandoned foreign fishing vessels and their gear from Crab Island, Horn Island and Pearce Cay. At Crab Island, an important flatback turtle nesting site, a beached vessel was dismantled and its steel removed, while an eighty-metre net was hauled from the wreck at Pearce Cay and taken ashore for disposal.",
+          "source": "Mirage News (AFMA / Parks Australia)",
+          "url": "https://www.miragenews.com/afma-clears-49-tonnes-of-debris-from-northern-1705114/",
           "image": ""
         },
         {
           "id": 2,
           "category": "Rec Fishing & the Bodies",
-          "headline": "Pro tournament scoring tech now free for everyday fishing clubs",
-          "summary": "Fishing tackle brand BUBBA and Major League Fishing have opened up their professional tournament scoring system to everyday anglers. SCORETRACKER LIVE, which has logged more than ninety-one thousand hours powering live leaderboards at top-level bass tournaments, is now available free through the BUBBA app for local clubs, junior events and backyard competitions to run their own real-time scoring. The platform made its public debut this week at the ICAST Cup in Kissimmee, Florida, raising funds for the Keep America Fishing conservation program.",
-          "spoken": "Recreational fishing clubs can now run their tournaments with the same scoring technology used on the professional circuit. Fishing brand BUBBA has partnered with Major League Fishing to release SCORETRACKER LIVE to the public through its app, free of charge. The system, already used for more than ninety-one thousand hours of live leaderboards at top bass tournaments, lets club organisers, competitors and spectators follow every catch in real time. It made its public debut this week at a tournament in Kissimmee, Florida, raising money for a fish conservation program.",
-          "source": "The Bass Cast",
-          "url": "https://thebasscast.com/2026/07/13/bubba-mlf-officially-launch-scoretracker-live-for-consumers-while-bubba-expands-its-connected-fishing-ecosystem-at-icast-2026/",
-          "image": "img/2026-07-15/2.webp"
+          "headline": "New artificial reef installed off Coffs Harbour",
+          "summary": "A new artificial reef has been installed off the Coffs Harbour coast to support tourism and sustainable recreational fishing along coastal New South Wales. It consists of two 50-tonne steel structures, each with a 15.6 by 15.6 metre footprint and a height of 12 metres, placed about 500 metres apart in 28 metres of water and engineered to withstand a one-in-100-year storm. The reef is designed to attract species including mackerel, snapper and mulloway, and joins twelve others already installed along the New South Wales coast.",
+          "spoken": "A new artificial reef has been placed off Coffs Harbour to boost coastal tourism and sustainable recreational fishing. It is made up of two steel structures, each weighing fifty tonnes and standing twelve metres tall, set about five hundred metres apart in twenty-eight metres of water and built to survive a one-in-one-hundred-year storm. Designed to draw in mackerel, snapper and mulloway, it becomes the thirteenth such reef along the New South Wales coast.",
+          "source": "Fishing World Australia",
+          "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
+          "image": "img/2026-07-15/2.png"
         },
         {
           "id": 3,
-          "category": "International & Destinations",
-          "headline": "Norwegian hook maker unveils new point design at world's biggest tackle show",
-          "summary": "Norwegian hook manufacturer Mustad is showcasing new hook-point technology at this week's ICAST tackle show in Orlando, Florida. The DeltaPoint features a precision-forged triangular point with an internal rib running from barb to tip, a design the company says increases strength without adding weight, delivering faster hooksets and greater durability. It debuts on the Mustad 7691S Swordfish Hook, built for offshore swordfishing, tuna and wahoo trolling.",
-          "spoken": "A new hook-point design from Norwegian manufacturer Mustad is among the technology on show at ICAST, the world's largest fishing tackle trade show, which opens in Orlando, Florida, this week. The DeltaPoint uses a precision-forged, triangular point with an internal rib running its length, reinforcing strength without adding weight. Mustad says the result is a faster hookset and a more durable point, and it will first appear on a heavy-duty hook built for offshore swordfishing and tuna trolling.",
-          "source": "Angling International",
-          "url": "https://angling-international.com/2026/07/13/mustad-to-unveil-newest-hook-technology-at-icast/",
-          "image": ""
+          "category": "Conservation",
+          "headline": "More than 200 'cod hotels' to rebuild fish habitat in South East Queensland",
+          "summary": "More than 200 purpose-built 'cod hotels' are being installed across South East Queensland waterways to restore habitat for native fish, including the critically endangered Mary River cod. The structures are made from recycled hollow logs and natural timber to mimic the sheltered environments fish use for breeding, feeding and protection, with the first now going into the Mid and Upper Brisbane River in the Somerset region. The work is delivered through the Resilient Rivers SEQ program, alongside additional projects such as a new 1.1 million dollar fishway at Gould Adams Park.",
+          "spoken": "More than two hundred purpose-built shelters known as cod hotels are being placed in South East Queensland waterways to rebuild habitat for native fish, among them the critically endangered Mary River cod. Made from recycled hollow logs and natural timber, they copy the sheltered spots fish rely on to breed, feed and hide, with the first now going into the Mid and Upper Brisbane River in the Somerset region. The effort is part of the Resilient Rivers program and sits alongside other work, including a new fishway at Gould Adams Park.",
+          "source": "The National Tribune (Council of Mayors SEQ)",
+          "url": "https://www.nationaltribune.com.au/more-than-200-cod-hotels-to-restore-fish-habitat-across-south-east-queensland/",
+          "image": "img/2026-07-15/3.jpg"
         },
         {
           "id": 4,
-          "category": "International & Destinations",
-          "headline": "Daiwa releases budget-friendly DX rod series",
-          "summary": "Tackle maker Daiwa has released its new DX series of rods for the Australian market, covering sixteen models from ultralight estuary spin outfits to heavier freshwater and inshore setups. The range uses Daiwa's Braiding X graphite blank construction paired with Fuji guides and reel seats, aimed at anglers wanting mid-range performance at an entry-level price.",
-          "spoken": "Daiwa has released a new budget-friendly rod range for Australian anglers. The DX series spans sixteen models, from light estuary spin outfits through to heavier freshwater and inshore rods, built around the company's Braiding X graphite blank and fitted with Fuji guides and reel seats. Daiwa says the aim was to bring solid mid-range performance to anglers starting out or fishing on a budget.",
-          "source": "Fishing World Australia",
-          "url": "https://fishingworld.com.au/gear/daiwa-dx-rods/",
-          "image": "img/2026-07-15/4.jpg"
+          "category": "Social & Catches",
+          "headline": "Wellington Point angler shares a lifelong love of Moreton Bay",
+          "summary": "Wellington Point fisher AJ Amos-Maclean has spoken about her lifelong passion for fishing Moreton Bay and her interest in marine conservation. A recent outing produced a good-sized snapper, one of the species the bay is known for. Her story reflects the pleasure that recreational anglers take in long days on the water.",
+          "spoken": "A Wellington Point angler, AJ Amos-Maclean, has shared a lifelong love of fishing Moreton Bay, together with a keen interest in marine conservation. Among her recent rewards was a good-sized snapper, one of the species the bay is well known for. It is a reminder of the simple pleasure that keeps recreational anglers coming back to the water.",
+          "source": "Redland Bayside News",
+          "url": "https://redlandbaysidenews.com.au/moreton-bay-fishing-2/",
+          "image": "img/2026-07-15/4.webp"
         },
         {
           "id": 5,
-          "category": "International & Destinations",
-          "headline": "Record $3.25 million prize purse announced for new bass fishing championship",
-          "summary": "A new bass fishing tournament in Nashville, Tennessee will carry the richest prize purse in the sport's history. World Bass Enterprises has confirmed \"The Champions,\" a five-day event in October at Old Hickory Lake, will pay 3.25 million US dollars in total prize money, including 1.25 million to the winning angler, the largest single prize ever awarded in competitive bass fishing. Fifty anglers will compete, including names from Major League Fishing's Bass Pro Tour. To mark the launch, organisers are also giving fans the chance to win the CEO's personal 84,000 dollar custom bass boat.",
-          "spoken": "Nashville will host the richest prize purse in the history of competitive bass fishing this October. World Bass Enterprises has confirmed its new event, The Champions, will pay out three and a quarter million US dollars in total, including one and a quarter million to the winning angler alone, the biggest single prize the sport has seen. Fifty anglers will take part, among them competitors from Major League Fishing's Bass Pro Tour, in a five-day event on Old Hickory Lake that also includes a free public expo and concerts. To celebrate, organisers are giving fans a chance to win the company founder's own custom bass boat, valued at around eighty-four thousand dollars.",
-          "source": "The Bass Cast",
-          "url": "https://thebasscast.com/2026/07/10/wbe-announces-chance-to-win-ceos-former-pre-owned-custom-ranger-bass-boat-prize-package-worth-84k/",
-          "image": "img/2026-07-15/5.jpg"
-        },
-        {
-          "id": 6,
           "category": "Fly Fishing",
-          "headline": "Idaho's South Fork Snake River fishing best at dawn and dusk as heat builds",
-          "summary": "Fly anglers on Idaho's South Fork Snake River are being advised to fish early and late as a heatwave pushes water temperatures up and air temperatures toward 100 degrees Fahrenheit. With flows running high out of Palisades Dam, guides report the best dry fly fishing is in the first two hours of daylight, before wind picks up, with a short but productive evening caddis rise later on. Through the heat of the day, fish are holding deep and tight to cover, favouring nymphs fished along the river's main channel edges.",
-          "spoken": "On Idaho's South Fork Snake River, anglers are being told to fish at the edges of the day as a heatwave takes hold. With air temperatures pushing into the high thirties Celsius and strong winds building through the morning, the best dry fly fishing is happening in the first couple of hours after dawn, before conditions turn tough. Fish are moving into shaded banks and deeper water through the middle of the day, and a brief but lively caddis hatch in the evening is providing the day's best remaining window on top.",
-          "source": "Fly Fish Food",
-          "url": "https://www.flyfishfood.com/blogs/fly-fishing-reports/south-fork-of-the-snake",
+          "headline": "A quiet reflection on protecting the wild waters we fish",
+          "summary": "Writing in Hatch Magazine, Johnny Carrol Sain recalls a secluded creek that could once be found only by map, compass or trusted direction, and reflects on how easily crowds can erode the wild character of hidden fishing waters. The essay makes the case that unspoiled places carry a value beyond any profit, and that their magic is fragile. It is a meditation, from an angler's perspective, on why quiet waters deserve protection.",
+          "spoken": "In a thoughtful piece for Hatch Magazine, writer Johnny Carrol Sain remembers a hidden creek that could once be reached only by map, compass, or a trusted word, and considers how quickly crowds can wear away the wild feel of such places. His argument is a simple one: unspoiled water holds a worth beyond profit, and that magic is easily lost. It is a gentle reminder, from one angler to another, of why quiet waters are worth protecting.",
+          "source": "Hatch Magazine",
+          "url": "https://www.hatchmag.com/articles/wide-place/7716302",
           "image": ""
         },
         {
-          "id": 7,
-          "category": "Social & Catches",
-          "headline": "Seven-year-old lands state-record gar in his pyjamas",
-          "summary": "A family fishing trip on Minnesota's Minnesota River produced an unexpected state record. Seven-year-old Isaac Richert, fishing in his pyjamas while his father and brother set up camp nearby, hooked what turned out to be a 30.5-inch shortnose gar, the first fish to meet the length threshold for Minnesota's catch-and-release record category since it was introduced in 2024. The fish was measured, photographed and released.",
-          "spoken": "A family camping trip on the Minnesota River has produced a new state fishing record, and the angler was still in his pyjamas when he caught it. Seven-year-old Isaac Richert was minding the family's baited rods after dark when one bent over hard. What he expected to be a catfish turned out to be a shortnose gar measuring thirty and a half inches, enough to claim Minnesota's catch-and-release record for the species, a category no angler had qualified for since it was introduced two years ago. The fish was measured, photographed and released unharmed.",
-          "source": "Wired2Fish",
-          "url": "https://www.wired2fish.com/news/clad-in-his-pajamas-7-year-old-on-a-family-fishing-trip-catches-state-record-gar",
-          "image": "img/2026-07-15/7.webp"
-        },
-        {
-          "id": 8,
+          "id": 6,
           "category": "Lighter Side",
-          "headline": "The bass tournament near-misses that live on in fishing folklore",
-          "summary": "A look back at some of competitive bass fishing's most agonising near-misses shows just how fine the margins can be. In the 1989 Bassmaster Classic, angler Jim Bitter lost the title by two ounces after a fish he was measuring flopped off his boat and back into the water. Eight years later, Dalton Bobo missed out on the same title by a single ounce after a dead-fish penalty. Writer Shaye Baker, who lost second place at a 2013 tournament over an accidental extra fish in his livewell, says the stories still resonate with anglers decades on.",
-          "spoken": "Competitive bass fishing has produced some famously narrow misses over the years. At the 1989 Bassmaster Classic, angler Jim Bitter lost the title by just two ounces after a fish slipped from his hands and back into the water while he was measuring it. In 1997, Dalton Bobo missed the same title by a single ounce because of a penalty for a fish that didn't survive in his boat's holding tank. Fishing writer Shaye Baker, reflecting on both, recalls his own costly mistake at a 2013 tournament, when an extra fish accidentally left in his holding tank cost him a place on the podium.",
-          "source": "Wired2Fish",
-          "url": "https://www.wired2fish.com/professional-fishing/big-bass-blunders-can-happen-to-anyone-thanks-to-the-fickle-fates-of-fishing",
-          "image": "img/2026-07-15/8.webp"
-        },
-        {
-          "id": 9,
-          "category": "Conservation",
-          "headline": "New fish habitat project gives tournament bass a place to recover",
-          "summary": "A new artificial habitat zone has been installed at Oklahoma's Lake Eufaula to help bass recover after tournament weigh-ins. Major League Fishing's Fisheries Management Division worked with state wildlife authorities and a local equipment dealer to anchor a network of long-lasting habitat structures at the mouth of Eufaula Cove, replacing the cedar trees traditionally used for such projects, which break down over time. The zone gives pressured fish shelter to reorient before being released back into the main lake, and builds on a similar project completed with a local high school fishing team in 2024.",
-          "spoken": "Bass caught in tournaments at Oklahoma's Lake Eufaula now have a purpose-built place to recover before being released. Major League Fishing's conservation arm has worked with state wildlife officials to install a network of durable, artificial habitat structures at the mouth of a sheltered cove, replacing the cedar trees once used for the same job, which break down within a few years. The new zone lets stressed fish settle before swimming back into the main lake, and follows on from a similar restoration project the organisation ran with a local high school fishing team two years ago.",
-          "source": "The Bass Cast",
-          "url": "https://thebasscast.com/2026/07/09/mlf-fisheries-management-division-completes-habitat-restoration-project-at-lake-eufaula/",
-          "image": "img/2026-07-15/9.jpg"
-        },
-        {
-          "category": "Conservation",
-          "headline": "New artificial reef off Coffs Harbour to boost fish habitat",
-          "summary": "A new artificial reef has been installed off Coffs Harbour on the New South Wales mid-north coast, using two steel structures weighing fifty tonnes each, set in twenty-eight metres of water about five hundred metres apart. Funded by the Recreational Fishing Trust and the Marine Estate Management Strategy and built by marine firm SMC Marine, it is designed to attract mackerel, snapper, mulloway and baitfish. It becomes the thirteenth artificial reef deployed along the New South Wales coast.",
-          "spoken": "There's a new drawcard for anglers on the New South Wales mid-north coast. A new artificial reef has been placed off Coffs Harbour, built from two steel structures, each weighing fifty tonnes, and set in twenty-eight metres of water around five hundred metres apart. Funded by the Recreational Fishing Trust and the Marine Estate Management Strategy, and built by the marine firm S-M-C Marine, it's designed to draw in mackerel, snapper, mulloway and baitfish. It's the thirteenth such reef now placed along the state's coast.",
-          "source": "Fishing World",
-          "url": "https://fishingworld.com.au/news/new-artificial-reef-for-coffs-harbour/",
-          "image": "",
-          "id": 10
+          "headline": "Gone Fishing Weekend packages open for clubs in October",
+          "summary": "Fishing World reports that Gone Fishing Weekend packages are available to help fishing clubs and organisations run their own events to promote and celebrate fishing. The weekend falls on Saturday the seventeenth or Sunday the eighteenth of October 2026. The packages are aimed at encouraging community participation in recreational fishing.",
+          "spoken": "Something to look forward to for the clubs: packages are now available to help fishing clubs and organisations host their own events for Gone Fishing Weekend. The weekend lands on Saturday the seventeenth and Sunday the eighteenth of October, and the idea is simply to get more people out enjoying recreational fishing together.",
+          "source": "Fishing World Australia",
+          "url": "https://fishingworld.com.au/news/gone-fishing-weekend-fishing-packages/",
+          "image": "img/2026-07-15/6.png"
         }
       ],
-      "built_at": "2026-07-14T22:54:52"
+      "built_at": "2026-07-15T01:58:11"
     },
     {
       "date": "2026-07-14",
