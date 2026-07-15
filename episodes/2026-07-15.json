@@ -1,11 +1,11 @@
 {
   "date": "2026-07-15",
   "edition": "Wednesday 15 July 2026",
-  "title": "Barefoot Daily News Bulletin — Wednesday 15 July 2026",
-  "duration": null,
-  "filesize": 0,
+  "title": "Barefoot Daily News Bulletin \u2014 Wednesday 15 July 2026",
+  "duration": 386.0,
+  "filesize": 6176640,
   "mp3": "episodes/2026-07-15.mp3",
-  "voice": "pending",
+  "voice": "openai",
   "intro": "Good morning. It's Wednesday the fifteenth of July, and here is the Barefoot Daily News Bulletin, with today's fishing and outdoors news from the Top End, around Australia and across the wider world of angling.",
   "stories": [
     {
@@ -26,7 +26,7 @@
       "spoken": "Recreational fishing clubs can now run their tournaments with the same scoring technology used on the professional circuit. Fishing brand BUBBA has partnered with Major League Fishing to release SCORETRACKER LIVE to the public through its app, free of charge. The system, already used for more than ninety-one thousand hours of live leaderboards at top bass tournaments, lets club organisers, competitors and spectators follow every catch in real time. It made its public debut this week at a tournament in Kissimmee, Florida, raising money for a fish conservation program.",
       "source": "The Bass Cast",
       "url": "https://thebasscast.com/2026/07/13/bubba-mlf-officially-launch-scoretracker-live-for-consumers-while-bubba-expands-its-connected-fishing-ecosystem-at-icast-2026/",
-      "image": "https://b381190.smushcdn.com/381190/wp-content/uploads/2026/07/unnamed-1-1.png"
+      "image": "img/2026-07-15/2.webp"
     },
     {
       "id": 3,
@@ -36,7 +36,7 @@
       "spoken": "A new hook-point design from Norwegian manufacturer Mustad is among the technology on show at ICAST, the world's largest fishing tackle trade show, which opens in Orlando, Florida, this week. The DeltaPoint uses a precision-forged, triangular point with an internal rib running its length, reinforcing strength without adding weight. Mustad says the result is a faster hookset and a more durable point, and it will first appear on a heavy-duty hook built for offshore swordfishing and tuna trolling.",
       "source": "Angling International",
       "url": "https://angling-international.com/2026/07/13/mustad-to-unveil-newest-hook-technology-at-icast/",
-      "image": "https://i0.wp.com/angling-international.com/wp-content/uploads/2026/07/Screenshot-2026-07-11-151817.png?resize=394%2C218&ssl=1"
+      "image": ""
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "spoken": "Daiwa has released a new budget-friendly rod range for Australian anglers. The DX series spans sixteen models, from light estuary spin outfits through to heavier freshwater and inshore rods, built around the company's Braiding X graphite blank and fitted with Fuji guides and reel seats. Daiwa says the aim was to bring solid mid-range performance to anglers starting out or fishing on a budget.",
       "source": "Fishing World Australia",
       "url": "https://fishingworld.com.au/gear/daiwa-dx-rods/",
-      "image": "https://fishingworld.com.au/wp-content/uploads/2026/07/DAIWA-26-DX-CROSSOVER-ROD-BUTT-SECTIONS-scaled.jpg"
+      "image": "img/2026-07-15/4.jpg"
     },
     {
       "id": 5,
@@ -56,7 +56,7 @@
       "spoken": "Nashville will host the richest prize purse in the history of competitive bass fishing this October. World Bass Enterprises has confirmed its new event, The Champions, will pay out three and a quarter million US dollars in total, including one and a quarter million to the winning angler alone, the biggest single prize the sport has seen. Fifty anglers will take part, among them competitors from Major League Fishing's Bass Pro Tour, in a five-day event on Old Hickory Lake that also includes a free public expo and concerts. To celebrate, organisers are giving fans a chance to win the company founder's own custom bass boat, valued at around eighty-four thousand dollars.",
       "source": "The Bass Cast",
       "url": "https://thebasscast.com/2026/07/10/wbe-announces-chance-to-win-ceos-former-pre-owned-custom-ranger-bass-boat-prize-package-worth-84k/",
-      "image": "https://b381190.smushcdn.com/381190/wp-content/uploads/2026/07/DSC01740-1200x675.jpg"
+      "image": "img/2026-07-15/5.jpg"
     },
     {
       "id": 6,
@@ -76,7 +76,7 @@
       "spoken": "A family camping trip on the Minnesota River has produced a new state fishing record, and the angler was still in his pyjamas when he caught it. Seven-year-old Isaac Richert was minding the family's baited rods after dark when one bent over hard. What he expected to be a catfish turned out to be a shortnose gar measuring thirty and a half inches, enough to claim Minnesota's catch-and-release record for the species, a category no angler had qualified for since it was introduced two years ago. The fish was measured, photographed and released unharmed.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/news/clad-in-his-pajamas-7-year-old-on-a-family-fishing-trip-catches-state-record-gar",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/Minn-record-gar-Isaac-Richert.webp"
+      "image": "img/2026-07-15/7.webp"
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "spoken": "Competitive bass fishing has produced some famously narrow misses over the years. At the 1989 Bassmaster Classic, angler Jim Bitter lost the title by just two ounces after a fish slipped from his hands and back into the water while he was measuring it. In 1997, Dalton Bobo missed the same title by a single ounce because of a penalty for a fish that didn't survive in his boat's holding tank. Fishing writer Shaye Baker, reflecting on both, recalls his own costly mistake at a 2013 tournament, when an extra fish accidentally left in his holding tank cost him a place on the podium.",
       "source": "Wired2Fish",
       "url": "https://www.wired2fish.com/professional-fishing/big-bass-blunders-can-happen-to-anyone-thanks-to-the-fickle-fates-of-fishing",
-      "image": "https://www.wired2fish.com/wp-content/uploads/2026/07/bass-blunders-lead.webp"
+      "image": "img/2026-07-15/8.webp"
     },
     {
       "id": 9,
@@ -96,7 +96,7 @@
       "spoken": "Bass caught in tournaments at Oklahoma's Lake Eufaula now have a purpose-built place to recover before being released. Major League Fishing's conservation arm has worked with state wildlife officials to install a network of durable, artificial habitat structures at the mouth of a sheltered cove, replacing the cedar trees once used for the same job, which break down within a few years. The new zone lets stressed fish settle before swimming back into the main lake, and follows on from a similar restoration project the organisation ran with a local high school fishing team two years ago.",
       "source": "The Bass Cast",
       "url": "https://thebasscast.com/2026/07/09/mlf-fisheries-management-division-completes-habitat-restoration-project-at-lake-eufaula/",
-      "image": "https://b381190.smushcdn.com/381190/wp-content/uploads/2026/07/unnamed-3-5-scaled.jpg"
+      "image": "img/2026-07-15/9.jpg"
     },
     {
       "category": "Conservation",
@@ -109,5 +109,5 @@
       "id": 10
     }
   ],
-  "built_at": "2026-07-15T02:03:32+00:00"
+  "built_at": "2026-07-15T02:05:38"
 }
