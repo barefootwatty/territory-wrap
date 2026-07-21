@@ -5,10 +5,10 @@ name: Build daily bulletin
 # (OpenAI), self-hosts images, rebuilds the feed + site, and commits. Vercel then
 # redeploys. This replaces the old Cowork scheduled task end-to-end.
 
+# RETIRED 21 Jul 2026: nightly schedule removed — project pivoted to the free
+# keyword-news app. Manual runs still possible via "Run workflow" if ever revived.
 on:
-  schedule:
-    - cron: "0 20 * * *"   # 20:00 UTC = 5:30am ACST (Watty's Top End morning)
-  workflow_dispatch:        # lets us press "Run workflow" to test on demand
+  workflow_dispatch:
 
 permissions:
   contents: write
